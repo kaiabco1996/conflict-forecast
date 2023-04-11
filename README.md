@@ -35,12 +35,12 @@ spatial region the aircraft is currently in.
      computations required for this challenge
 
 1. A set of predicted trajectories in JSON format. A [`Trajectory`](src/main/kotlin/aero/airlab/challenge/conflictforecast/api/Trajectory.kt)
-   is defined by an ID and a list of `Waypoint`.
+   is defined by an ID and a list of [`Waypoint`](src/main/kotlin/aero/airlab/challenge/conflictforecast/api/Trajectory.kt).
 
 1. A set of separation requirement regions in JSON format. A [`SeparationRequirement`](src/main/kotlin/aero/airlab/challenge/conflictforecast/api/SeparationRequirement.kt)
    is a circular region defined by a center and a radius.
 
-1. The required REST service request and response body is specified by [`ConflictForecastRequest``](src/main/kotlin/aero/airlab/challenge/conflictforecast/api/ConflictForecastRequest.kt)
+1. The required REST service request and response body is specified by [`ConflictForecastRequest`](src/main/kotlin/aero/airlab/challenge/conflictforecast/api/ConflictForecastRequest.kt)
    and [`ConflictForecastResponse`](src/main/kotlin/aero/airlab/challenge/conflictforecast/api/ConflictForecastResponse.kt)
 
 1. For the implementation of the conflict forecast algorithm, you can use this simple brute force method:
@@ -57,6 +57,7 @@ spatial region the aircraft is currently in.
       1. Check whether there is separation breakdown between any of the aircraft.
          For two aircraft of different separation regions, use the larger separation requirement.
       1. Create `Conflict` objects when conflicts are detected.
+      1. Increment current_time by 5 seconds
 
 1. *The code in package [`forecast`](src/main/kotlin/aero/airlab/challenge/conflictforecast/forecast)
    are for our reference and is not provided to candidate*
