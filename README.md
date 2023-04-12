@@ -65,8 +65,10 @@ spatial region the aircraft is currently in.
 # Required Tasks
 
 1. Implement the algorithm to compute conflicts given a set of trajectories.
-2. Implement the REST service that encapsulate this algorithm.
-3. Write the necessary unit tests to verify that the service works according to specification.
+   - Identify and build components (if any) that can be re-used for other services in future.
+   - Consider how to include logs of different detail levels to the implementation to help analyze how forecasted results were derived.
+1. Implement the REST service that encapsulate this algorithm.
+1. Write the necessary unit tests to verify that the service works according to specification.
 
 # Good to Have Tasks
 
