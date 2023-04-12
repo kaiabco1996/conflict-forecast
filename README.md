@@ -65,7 +65,7 @@ spatial region the aircraft is currently in.
 # Required Tasks
 
 1. Implement the algorithm to compute conflicts given a set of trajectories.
-   - Identify and build components (if any) that can be re-used for other services in future.
+   - Identify and build components (if any) that can be re-used for implementing other services related to trajectory analysis in future.
    - Consider how to include logs of different detail levels to the implementation to help analyze how forecasted results were derived.
 1. Implement the REST service that encapsulate this algorithm.
 1. Write the necessary unit tests to verify that the service works according to specification.
@@ -80,12 +80,14 @@ spatial region the aircraft is currently in.
 1. Create a web frontend for invoking the service and visualizing the trajectories and conflicts. 
    A simple form can be used to define the trajectories or simply accept them as JSON in a text box.
 
-# Possible Live Tasks (for our reference)
+# For our reference
+
+## Possible Live Tasks
 
 1. Add support for polygonal separation regions.
 2. Add support for vertical separation
 
-# Possible Questions (for our reference)
+## Possible Questions
 
 1. How can the algorithm be made faster?
    - Use of spatial partitioning when computing distance between aircraft
@@ -96,3 +98,8 @@ spatial region the aircraft is currently in.
      - Compute each time step in parallel
      - Spatially partition the trajectories
    - What are the considerations in terms of thread safety?
+
+## Possible Whiteboard Discussion Topics
+
+1. Integrating the conflict forecast with FPL, TRACK, IDENT streams and more static airspace configuration data to become a real time service
+1. How to cater for recording and KPI requirements
