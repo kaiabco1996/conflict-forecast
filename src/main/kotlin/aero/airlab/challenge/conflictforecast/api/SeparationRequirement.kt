@@ -11,7 +11,7 @@ data class SeparationRequirement(
      */
     val center: GeoPoint,
     /**
-     * Radius of the circular region in metres
+     * Radius of the circular region in metres, exclusive
      */
     val radius: Double,
     /**
