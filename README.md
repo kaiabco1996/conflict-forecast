@@ -85,27 +85,3 @@ spatial region the aircraft is currently in.
 
 1. Create a web frontend for invoking the service and visualizing the trajectories and conflicts. 
    A simple form can be used to define the trajectories or simply accept them as JSON in a text box.
-
-# For our reference
-
-## Possible Live Tasks
-
-1. Add support for polygonal separation regions.
-2. Add support for vertical separation
-
-## Possible Questions
-
-1. How can the algorithm be made faster?
-   - Use of spatial partitioning when computing distance between aircraft
-   - Coarse grain filtering of trajectories
-
-1. How can the algorithm be scaled horizontally for a single request?
-   - Possible solutions:
-     - Compute each time step in parallel
-     - Spatially partition the trajectories
-   - What are the considerations in terms of thread safety?
-
-## Possible Whiteboard Discussion Topics
-
-1. Integrating the conflict forecast with FPL, TRACK, IDENT streams and more static airspace configuration data to become a real time service
-1. How to cater for recording and KPI requirements
