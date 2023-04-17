@@ -69,6 +69,9 @@ spatial region the aircraft is currently in.
 1. Implement the algorithm to compute conflicts given a set of trajectories.
    - You must implement the simple brute force method described above.
    - You can implement a better algorithm as a "good to have" task (see below).
+1. If you wish to, you can code in Java instead of Kotlin. Just write your source code under `src/main/java`.
+   Java code should have no problem using the provided Kotlin classes, if not, you are free to modify or translate the
+   provided code to Java.
 1. Identify and build components (if any) that can be re-used for implementing other services related to trajectory analysis in future.
 1. Consider how to include logs of different detail levels to the implementation to help analyze how forecasted results were derived.
 1. Implement the REST service that encapsulate this algorithm.
