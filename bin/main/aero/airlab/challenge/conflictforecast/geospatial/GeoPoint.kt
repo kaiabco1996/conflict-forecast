@@ -33,11 +33,3 @@ data class TemporalGeoPoint(override val lon: Double, override val lat: Double,
 
     constructor(pt: ITemporalGeoPoint) : this(pt.lon, pt.lat, pt.timestamp)
 }
-
-data class GeoPointPair(
-    val geoPointBefore: TemporalGeoPoint,
-    val geoPointCurrent: TemporalGeoPoint
-)
-
-data class AircraftDistancePair(val id1: Int, val id2: Int, val distance: Double)
-
