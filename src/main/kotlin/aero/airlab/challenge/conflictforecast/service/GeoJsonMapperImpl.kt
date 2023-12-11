@@ -12,10 +12,14 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import org.geotools.referencing.GeodeticCalculator
 import org.springframework.stereotype.Service
+import kotlin.random.Random
+
 
 @Service
 class GeoJsonMapperImpl(
-    private val conflictForecastService: ConflictForecastService
+    private val conflictForecastService: ConflictForecastService,
+    private val conflictForecastServiceV2: ConflictForecastServiceV2
+
 ) : GeoJsonMapper {
 
     val objectMapper: ObjectMapper = jacksonObjectMapper()
@@ -25,18 +29,29 @@ class GeoJsonMapperImpl(
         return createFeatureCollection(conflictForecastResponse.conflicts, conflictForecastRequest.separationRequirements)
     }
 
+    override suspend fun createConflictsAsFeatureCollectionsV2(conflictForecastRequest: ConflictForecastRequest): Map<String, Any> {
+        val conflictForecastResponse: ConflictForecastResponse = conflictForecastServiceV2.createConflict(conflictForecastRequest)
+        return createFeatureCollection(conflictForecastResponse.conflicts, conflictForecastRequest.separationRequirements)
+    }
+
     override fun createFeatureCollection(conflictFeature: List<Conflict>, separationRequirements: List<SeparationRequirement>): Map<String, Any> {
         val featureCollection = mutableMapOf<String, Any>()
         featureCollection["type"] = "FeatureCollection"
 
         val features = mutableListOf<Map<String, Any>>()
         for (conflict in conflictFeature) {
+            val r = Random.nextInt(256)
+            val g = Random.nextInt(256)
+            val b = Random.nextInt(256)
             features.add(
                 createLineStringFeature(
                     "Trajectory A",
                     conflict.trajectoryA,
                     conflict.conflictStartA,
-                    conflict.conflictEndA
+                    conflict.conflictEndA,
+                    r,
+                    g,
+                    b
                 )
             )
             features.add(
@@ -44,7 +59,10 @@ class GeoJsonMapperImpl(
                     "Trajectory B",
                     conflict.trajectoryB,
                     conflict.conflictStartB,
-                    conflict.conflictEndB
+                    conflict.conflictEndB,
+                    r,
+                    g,
+                    b
                 )
             )
         }
@@ -60,7 +78,10 @@ class GeoJsonMapperImpl(
         name: String,
         trajectoryId: Int,
         startPoint: TemporalGeoPoint,
-        endPoint: TemporalGeoPoint?
+        endPoint: TemporalGeoPoint?,
+        r: Int,
+        g: Int,
+        b: Int
     ): Map<String, Any> {
         val feature = mutableMapOf<String, Any>()
         feature["type"] = "Feature"
@@ -77,6 +98,16 @@ class GeoJsonMapperImpl(
         val properties = mutableMapOf<String, Any>()
         properties["name"] = name
         properties["trajectoryId"] = trajectoryId
+        properties["startTime"] = startPoint.timestamp
+        if (endPoint != null) {
+            properties["endTime"] = endPoint.timestamp
+        }
+        properties["stroke"] = "rgb(%d, %d, %d)".format(r, g, b)
+        properties["stroke-width"] = 2
+        properties["stroke-opacity"] = 1
+//        "stroke": "rgb(0, 0, 255)",
+//        "stroke-width": 2,
+//        "stroke-opacity": 1
 
         feature["properties"] = properties
 
@@ -110,12 +141,11 @@ class GeoJsonMapperImpl(
     private fun generateCircleCoordinates(lon: Double, lat: Double, radius: Double): List<List<Double>> {
         val numPoints = 60 // Adjust the number of points based on your requirements
         val coordinates = mutableListOf<List<Double>>()
-        val geodeticCalc: GeodeticCalc = GeodeticCalc.geodeticCalcWSSS()
         val geoCalc = GeodeticCalculator()
 
         repeat(numPoints + 1) { i ->
-            val customHeading: Double = (360.0/numPoints) * (i+1)
-            if (customHeading > 180) -180 + (customHeading-180)
+            var customHeading: Double = (360.0/numPoints) * (i+1)
+            if (customHeading > 180) {customHeading = -180 + (customHeading-180)}
             // Set the starting point (longitude, latitude)
             println("azimuth: $customHeading")
             geoCalc.setStartingGeographicPoint(lon, lat)
