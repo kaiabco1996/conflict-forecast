@@ -86,3 +86,4 @@ which will load the static html capable of loading a map with the features of th
 - Upon the loading of the empty map, paste the request json into the input box and press the button to process
 - Once processing is done the resulting features are displayed at the bottom of the input box and the features are 
 displayed on the map zoomed into the features.
+- A sample image of the output from the frontend web is as shown ![Output Map](img.png)
