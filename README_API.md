@@ -87,3 +87,6 @@ which will load the static html capable of loading a map with the features of th
 - Once processing is done the resulting features are displayed at the bottom of the input box and the features are 
 displayed on the map zoomed into the features.
 - A sample image of the output from the frontend web is as shown ![Output Map](img.png)
+- However, our current implementation on the custom front end still does not include the color variation capabilities in geojson
+- The following image shows the geojson.io website's output of our conflict features where two aircrafts intersecting have the same color and all other pairs have other random colors
+- ![GeoJson Map](img_geojson.png)
