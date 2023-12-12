@@ -15,6 +15,10 @@ data class Conflict(
      */
     val conflictStartA: TemporalGeoPoint,
     /**
+     * Position and time of first trajectory just before lateral separation breakdown starts.
+     */
+    @Transient val conflictBeforeA: TemporalGeoPoint?,
+    /**
      * Position and time of first trajectory when lateral separation breakdown ends.
      */
     val conflictEndA: TemporalGeoPoint?,
@@ -26,6 +30,10 @@ data class Conflict(
      * Position and time of second trajectory when lateral separation breakdown starts.
      */
     val conflictStartB: TemporalGeoPoint,
+    /**
+     * Position and time of first trajectory just before lateral separation breakdown starts.
+     */
+    @Transient val conflictBeforeB: TemporalGeoPoint?,
     /**
      * Position and time of second trajectory when lateral separation breakdown ends.
      */

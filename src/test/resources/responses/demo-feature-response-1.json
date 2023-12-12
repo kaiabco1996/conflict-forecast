@@ -1,0 +1,8079 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.90493285586952,
+            1.861760148559298
+          ],
+          [
+            103.89985546943545,
+            1.9420249972023746
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 2,
+        "startTime": 1569888063461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(183, 115, 76)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.90493285586952,
+            1.861760148559298
+          ],
+          [
+            103.91523907393992,
+            1.7500621622690378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888063461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(183, 115, 76)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.66307871933316,
+            3.496961208757053
+          ],
+          [
+            105.80383311782107,
+            3.5038319597817487
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569888063461,
+        "endTime": 1569888128461,
+        "stroke": "rgb(110, 131, 47)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.66307871933316,
+            3.496961208757053
+          ],
+          [
+            105.59043538103698,
+            3.4931549147861145
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569888063461,
+        "endTime": 1569888128461,
+        "stroke": "rgb(110, 131, 47)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.53295169457382,
+            2.1662165965804148
+          ],
+          [
+            102.50416438869416,
+            2.1861749075091588
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 103,
+        "startTime": 1569888063461,
+        "endTime": 1569888123461,
+        "stroke": "rgb(157, 53, 205)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.53295169457382,
+            2.1662165965804148
+          ],
+          [
+            102.42958357719554,
+            1.9837117812937988
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 835,
+        "startTime": 1569888063461,
+        "endTime": 1569888123461,
+        "stroke": "rgb(157, 53, 205)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.24865757140077,
+            1.435090273630802
+          ],
+          [
+            103.29861849684572,
+            1.397572907954293
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 248,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(9, 76, 205)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.24865757140077,
+            1.435090273630802
+          ],
+          [
+            103.0420212855554,
+            1.4242982707776086
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1499,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(9, 76, 205)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.2336070371702,
+            4.461019304797115
+          ],
+          [
+            105.34563332881135,
+            4.72967952214987
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1780,
+        "startTime": 1569888063461,
+        "endTime": 1569888193461,
+        "stroke": "rgb(116, 236, 8)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.2336070371702,
+            4.461019304797115
+          ],
+          [
+            105.37697313273955,
+            4.80938356397722
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1108,
+        "startTime": 1569888063461,
+        "endTime": 1569888193461,
+        "stroke": "rgb(116, 236, 8)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4177756203473,
+            1.7902434756265884
+          ],
+          [
+            103.47390224737943,
+            1.761070353274317
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888063461,
+        "endTime": 1569888113461,
+        "stroke": "rgb(12, 166, 235)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4177756203473,
+            1.7902434756265884
+          ],
+          [
+            103.29177435467687,
+            1.8459962285387415
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 674,
+        "startTime": 1569888063461,
+        "endTime": 1569888113461,
+        "stroke": "rgb(12, 166, 235)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4177756203473,
+            1.7902434756265884
+          ],
+          [
+            103.46267706254443,
+            1.7669051154011652
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(9, 154, 83)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4177756203473,
+            1.7902434756265884
+          ],
+          [
+            103.6559511390158,
+            1.6768650002813952
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1115,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(9, 154, 83)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4177756203473,
+            1.7902434756265884
+          ],
+          [
+            103.54686425718654,
+            1.7231427429808897
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888063461,
+        "endTime": 1569888178461,
+        "stroke": "rgb(50, 128, 111)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4177756203473,
+            1.7902434756265884
+          ],
+          [
+            103.3931122374485,
+            1.8323044010918648
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888063461,
+        "endTime": 1569888178461,
+        "stroke": "rgb(50, 128, 111)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02389334074222,
+            1.4227436869933963
+          ],
+          [
+            104.0539526681059,
+            1.4920022112488711
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 208,
+        "startTime": 1569888063461,
+        "endTime": 1569888138461,
+        "stroke": "rgb(181, 249, 38)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02389334074222,
+            1.4227436869933963
+          ],
+          [
+            103.97355359255315,
+            1.6421999960949685
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1462,
+        "startTime": 1569888063461,
+        "endTime": 1569888138461,
+        "stroke": "rgb(181, 249, 38)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02389334074222,
+            1.4227436869933963
+          ],
+          [
+            104.0539526681059,
+            1.4920022112488711
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 208,
+        "startTime": 1569888063461,
+        "endTime": 1569888138461,
+        "stroke": "rgb(241, 6, 8)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02389334074222,
+            1.4227436869933963
+          ],
+          [
+            103.88292093632671,
+            1.5742519730284976
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888063461,
+        "endTime": 1569888138461,
+        "stroke": "rgb(241, 6, 8)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02886197735918,
+            1.539930615951287
+          ],
+          [
+            103.99567760159235,
+            1.601292435676595
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1462,
+        "startTime": 1569888063461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(169, 174, 146)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02886197735918,
+            1.539930615951287
+          ],
+          [
+            103.91523907393992,
+            1.7500621622690378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888063461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(169, 174, 146)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02886197735918,
+            1.539930615951287
+          ],
+          [
+            103.91455177566766,
+            1.7512855193709886
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1462,
+        "startTime": 1569888063461,
+        "endTime": 1569888218461,
+        "stroke": "rgb(61, 169, 179)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.02886197735918,
+            1.539930615951287
+          ],
+          [
+            103.82116686432607,
+            1.5632910034537724
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888063461,
+        "endTime": 1569888218461,
+        "stroke": "rgb(61, 169, 179)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.98832627137635,
+            3.5780867827581555
+          ],
+          [
+            107.08982365224232,
+            3.661219256266041
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 871,
+        "startTime": 1569888063461,
+        "endTime": 1569888123461,
+        "stroke": "rgb(47, 73, 46)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.98832627137635,
+            3.5780867827581555
+          ],
+          [
+            106.92154972301603,
+            3.552598246257759
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 891,
+        "startTime": 1569888063461,
+        "endTime": 1569888123461,
+        "stroke": "rgb(47, 73, 46)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.94793006690983,
+            1.6900917422704176
+          ],
+          [
+            103.91523907393992,
+            1.7500621622690378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1418,
+        "startTime": 1569888063461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(1, 131, 128)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.94793006690983,
+            1.6900917422704176
+          ],
+          [
+            103.9060788793702,
+            1.5783618625886404
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888063461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(1, 131, 128)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.12567082926955,
+            4.078924042367162
+          ],
+          [
+            104.14354149840388,
+            4.1966453955685346
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 537,
+        "startTime": 1569888063461,
+        "endTime": 1569888118461,
+        "stroke": "rgb(210, 77, 225)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.12567082926955,
+            4.078924042367162
+          ],
+          [
+            104.3807670634726,
+            4.082001597695583
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1401,
+        "startTime": 1569888063461,
+        "endTime": 1569888118461,
+        "stroke": "rgb(210, 77, 225)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.37009848168972,
+            3.121759036858462
+          ],
+          [
+            104.26253655921049,
+            3.1508680648044356
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 747,
+        "startTime": 1569888063461,
+        "endTime": 1569888118461,
+        "stroke": "rgb(119, 42, 206)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.37009848168972,
+            3.121759036858462
+          ],
+          [
+            104.27762454131972,
+            3.040101354143228
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 574,
+        "startTime": 1569888063461,
+        "endTime": 1569888118461,
+        "stroke": "rgb(119, 42, 206)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.2529824058635,
+            1.148857076289307
+          ],
+          [
+            104.2172118425338,
+            1.1464803421950882
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1389,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(121, 255, 161)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.2529824058635,
+            1.148857076289307
+          ],
+          [
+            104.13015865197491,
+            1.0195797200395964
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1834,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(121, 255, 161)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.38694455462335,
+            1.8163807429873513
+          ],
+          [
+            103.3679107641878,
+            1.8223042468513773
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888063461,
+        "endTime": 1569888073461,
+        "stroke": "rgb(176, 233, 238)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.38694455462335,
+            1.8163807429873513
+          ],
+          [
+            103.62366841985421,
+            1.762628483565977
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1115,
+        "startTime": 1569888063461,
+        "endTime": 1569888073461,
+        "stroke": "rgb(176, 233, 238)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.38694455462335,
+            1.8163807429873513
+          ],
+          [
+            103.29177435467687,
+            1.8459962285387415
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888063461,
+        "endTime": 1569888113461,
+        "stroke": "rgb(44, 28, 110)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.38694455462335,
+            1.8163807429873513
+          ],
+          [
+            103.51376165895898,
+            1.8149250956122946
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888063461,
+        "endTime": 1569888113461,
+        "stroke": "rgb(44, 28, 110)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.6129068640645,
+            1.7912161701406528
+          ],
+          [
+            103.6559511390158,
+            1.6768650002813952
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1115,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(47, 12, 19)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.6129068640645,
+            1.7912161701406528
+          ],
+          [
+            103.53232290337607,
+            1.8122506354688686
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888063461,
+        "endTime": 1569888103461,
+        "stroke": "rgb(47, 12, 19)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.46828966370431,
+            1.763987742898686
+          ],
+          [
+            103.51318984595837,
+            1.7406481488752108
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888108461,
+        "endTime": 1569888148461,
+        "stroke": "rgb(18, 172, 86)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.46828966370431,
+            1.763987742898686
+          ],
+          [
+            103.6702396391083,
+            1.6403650059051234
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1115,
+        "startTime": 1569888108461,
+        "endTime": 1569888148461,
+        "stroke": "rgb(18, 172, 86)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91523907393992,
+            1.7500621622690378
+          ],
+          [
+            103.91523907393992,
+            1.7500621622690378
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1418,
+        "startTime": 1569888108461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(55, 98, 10)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91523907393992,
+            1.7500621622690378
+          ],
+          [
+            103.66094241785159,
+            1.6636209072985
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1115,
+        "startTime": 1569888108461,
+        "endTime": 1569888108461,
+        "stroke": "rgb(55, 98, 10)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.21266885377254,
+            1.1461614163258884
+          ],
+          [
+            104.1348964045181,
+            1.140573740763505
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1389,
+        "startTime": 1569888108461,
+        "endTime": 1569888193461,
+        "stroke": "rgb(244, 252, 255)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.21266885377254,
+            1.1461614163258884
+          ],
+          [
+            104.1798950969798,
+            0.8788837900547154
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1834,
+        "startTime": 1569888108461,
+        "endTime": 1569888193461,
+        "stroke": "rgb(244, 252, 255)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.9060788793702,
+            1.5783618625886404
+          ],
+          [
+            103.87520164214536,
+            1.5728819522664805
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1368,
+        "startTime": 1569888108461,
+        "endTime": 1569888148461,
+        "stroke": "rgb(205, 174, 26)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.9060788793702,
+            1.5783618625886404
+          ],
+          [
+            103.6702396391083,
+            1.6403650059051234
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1115,
+        "startTime": 1569888108461,
+        "endTime": 1569888148461,
+        "stroke": "rgb(205, 174, 26)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.66094241785159,
+            1.6636209072985
+          ],
+          [
+            103.6679153540404,
+            1.6461789858633122
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1115,
+        "startTime": 1569888108461,
+        "endTime": 1569888138461,
+        "stroke": "rgb(253, 170, 150)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.66094241785159,
+            1.6636209072985
+          ],
+          [
+            103.46735830914284,
+            1.8216104066440713
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888108461,
+        "endTime": 1569888138461,
+        "stroke": "rgb(253, 170, 150)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.89929128617291,
+            1.9509433081193877
+          ],
+          [
+            103.88800633669204,
+            2.1293092803830644
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 2,
+        "startTime": 1569888113461,
+        "endTime": 1569888213461,
+        "stroke": "rgb(41, 226, 160)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.89929128617291,
+            1.9509433081193877
+          ],
+          [
+            103.90088149560023,
+            1.9282197719654361
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888113461,
+        "endTime": 1569888213461,
+        "stroke": "rgb(41, 226, 160)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.99199032827762,
+            1.6081103804107273
+          ],
+          [
+            103.91455177566766,
+            1.7512855193709886
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1462,
+        "startTime": 1569888113461,
+        "endTime": 1569888218461,
+        "stroke": "rgb(45, 184, 208)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.99199032827762,
+            1.6081103804107273
+          ],
+          [
+            103.90033097519552,
+            1.9367857036196103
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888113461,
+        "endTime": 1569888218461,
+        "stroke": "rgb(45, 184, 208)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91189078031303,
+            1.7569009258099264
+          ],
+          [
+            103.90693686213432,
+            1.8339944558863839
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1418,
+        "startTime": 1569888113461,
+        "endTime": 1569888158461,
+        "stroke": "rgb(117, 223, 133)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91189078031303,
+            1.7569009258099264
+          ],
+          [
+            103.86748235803296,
+            1.5715119027586233
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888113461,
+        "endTime": 1569888158461,
+        "stroke": "rgb(117, 223, 133)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91189078031303,
+            1.7569009258099264
+          ],
+          [
+            103.91189078031303,
+            1.7569009258099264
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1418,
+        "startTime": 1569888113461,
+        "endTime": 1569888113461,
+        "stroke": "rgb(25, 79, 126)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91189078031303,
+            1.7569009258099264
+          ],
+          [
+            103.66210458235376,
+            1.6607139223213139
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1115,
+        "startTime": 1569888113461,
+        "endTime": 1569888113461,
+        "stroke": "rgb(25, 79, 126)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.47951481359866,
+            1.758152946556444
+          ],
+          [
+            103.49635240780997,
+            1.7494006241256572
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888118461,
+        "endTime": 1569888133461,
+        "stroke": "rgb(195, 116, 124)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.47951481359866,
+            1.758152946556444
+          ],
+          [
+            103.2559797714941,
+            1.8626896382691043
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 674,
+        "startTime": 1569888118461,
+        "endTime": 1569888133461,
+        "stroke": "rgb(195, 116, 124)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.28257772751869,
+            1.8496408726523745
+          ],
+          [
+            103.17618354430189,
+            1.9018334890626265
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888118461,
+        "endTime": 1569888178461,
+        "stroke": "rgb(254, 182, 50)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.28257772751869,
+            1.8496408726523745
+          ],
+          [
+            103.3931122374485,
+            1.8323044010918648
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888118461,
+        "endTime": 1569888178461,
+        "stroke": "rgb(254, 182, 50)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.25269490882751,
+            3.153536393352334
+          ],
+          [
+            104.25269490882751,
+            3.153536393352334
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 747,
+        "startTime": 1569888123461,
+        "endTime": 1569888123461,
+        "stroke": "rgb(151, 0, 114)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.25269490882751,
+            3.153536393352334
+          ],
+          [
+            104.28365190841696,
+            3.0497376814355817
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 574,
+        "startTime": 1569888123461,
+        "endTime": 1569888123461,
+        "stroke": "rgb(151, 0, 114)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.5017654123058,
+            2.187838074862089
+          ],
+          [
+            102.48737144284603,
+            2.1978169970900256
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 103,
+        "startTime": 1569888128461,
+        "endTime": 1569888158461,
+        "stroke": "rgb(177, 139, 172)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.5017654123058,
+            2.187838074862089
+          ],
+          [
+            102.5171855364466,
+            1.9368839712928674
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 835,
+        "startTime": 1569888128461,
+        "endTime": 1569888158461,
+        "stroke": "rgb(177, 139, 172)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.0982826064752,
+            3.6681464383565445
+          ],
+          [
+            107.41982164520029,
+            3.931317661986416
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 871,
+        "startTime": 1569888128461,
+        "endTime": 1569888318461,
+        "stroke": "rgb(237, 39, 88)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.0982826064752,
+            3.6681464383565445
+          ],
+          [
+            107.15495813327306,
+            3.8873042452905864
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 891,
+        "startTime": 1569888128461,
+        "endTime": 1569888318461,
+        "stroke": "rgb(237, 39, 88)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.24270060573164,
+            3.1562593850965306
+          ],
+          [
+            104.17273902469918,
+            3.175317616994096
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 747,
+        "startTime": 1569888128461,
+        "endTime": 1569888163461,
+        "stroke": "rgb(40, 85, 170)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.24270060573164,
+            3.1562593850965306
+          ],
+          [
+            104.33309349571455,
+            3.1280931647216037
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 574,
+        "startTime": 1569888128461,
+        "endTime": 1569888163461,
+        "stroke": "rgb(40, 85, 170)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.8142587634441,
+            3.504363823980409
+          ],
+          [
+            106.01142608462968,
+            3.514456975999331
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569888133461,
+        "endTime": 1569888228461,
+        "stroke": "rgb(22, 34, 86)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.8142587634441,
+            3.504363823980409
+          ],
+          [
+            105.79766631886663,
+            3.503522769545904
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569888133461,
+        "endTime": 1569888228461,
+        "stroke": "rgb(22, 34, 86)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.05110398111779,
+            1.4981810703901266
+          ],
+          [
+            103.99957635014019,
+            1.5936935278722222
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 208,
+        "startTime": 1569888143461,
+        "endTime": 1569888218461,
+        "stroke": "rgb(134, 163, 188)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.05110398111779,
+            1.4981810703901266
+          ],
+          [
+            103.91455177566766,
+            1.7512855193709886
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1462,
+        "startTime": 1569888143461,
+        "endTime": 1569888218461,
+        "stroke": "rgb(134, 163, 188)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.05110398111779,
+            1.4981810703901266
+          ],
+          [
+            103.92055799600287,
+            1.7401432420458658
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 208,
+        "startTime": 1569888143461,
+        "endTime": 1569888333461,
+        "stroke": "rgb(17, 149, 218)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.05110398111779,
+            1.4981810703901266
+          ],
+          [
+            103.73239650694904,
+            1.547531409536858
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888143461,
+        "endTime": 1569888333461,
+        "stroke": "rgb(17, 149, 218)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.84639703262823,
+            -0.30607353755744204
+          ],
+          [
+            106.07910503685757,
+            -0.36309090461275606
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888153461,
+        "endTime": 1569888258461,
+        "stroke": "rgb(86, 193, 26)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.84639703262823,
+            -0.30607353755744204
+          ],
+          [
+            105.93775136780567,
+            -0.240353804553322
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888153461,
+        "endTime": 1569888258461,
+        "stroke": "rgb(86, 193, 26)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.73230289857743,
+            4.662861641677347
+          ],
+          [
+            102.99183201331105,
+            5.166689433355111
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 5,
+        "startTime": 1569888153461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(202, 204, 214)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.73230289857743,
+            4.662861641677347
+          ],
+          [
+            102.77701720341241,
+            5.005312350701323
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 995,
+        "startTime": 1569888153461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(202, 204, 214)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.16274430412227,
+            3.1780398333553466
+          ],
+          [
+            104.16274430412227,
+            3.1780398333553466
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 747,
+        "startTime": 1569888168461,
+        "endTime": 1569888168461,
+        "stroke": "rgb(18, 20, 191)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.16274430412227,
+            3.1780398333553466
+          ],
+          [
+            104.3391577765584,
+            3.137811036857098
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 574,
+        "startTime": 1569888168461,
+        "endTime": 1569888168461,
+        "stroke": "rgb(18, 20, 191)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.15246723538323,
+            3.177994134593216
+          ],
+          [
+            104.11122258951386,
+            3.176472621356489
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 747,
+        "startTime": 1569888173461,
+        "endTime": 1569888193461,
+        "stroke": "rgb(72, 19, 123)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.15246723538323,
+            3.177994134593216
+          ],
+          [
+            104.36919902778142,
+            3.186206151642488
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 574,
+        "startTime": 1569888173461,
+        "endTime": 1569888193461,
+        "stroke": "rgb(72, 19, 123)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.5524765991083,
+            1.7202251166305036
+          ],
+          [
+            103.57492579657008,
+            1.708554444551598
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888183461,
+        "endTime": 1569888203461,
+        "stroke": "rgb(245, 118, 201)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.5524765991083,
+            1.7202251166305036
+          ],
+          [
+            103.34201111387452,
+            1.8396221342437211
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888183461,
+        "endTime": 1569888203461,
+        "stroke": "rgb(245, 118, 201)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.16731707620293,
+            1.9061825770434029
+          ],
+          [
+            103.08751684872779,
+            1.945322279815176
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888183461,
+        "endTime": 1569888228461,
+        "stroke": "rgb(128, 81, 89)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.16731707620293,
+            1.9061825770434029
+          ],
+          [
+            103.29013503385333,
+            1.847043176962453
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888183461,
+        "endTime": 1569888228461,
+        "stroke": "rgb(128, 81, 89)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.34994372533178,
+            4.740012211239401
+          ],
+          [
+            105.37580880354164,
+            4.80200771416847
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1780,
+        "startTime": 1569888198461,
+        "endTime": 1569888228461,
+        "stroke": "rgb(144, 123, 165)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.34994372533178,
+            4.740012211239401
+          ],
+          [
+            105.41765882788539,
+            4.869693758884257
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1108,
+        "startTime": 1569888198461,
+        "endTime": 1569888228461,
+        "stroke": "rgb(144, 123, 165)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.46578013000656,
+            2.2127851161454117
+          ],
+          [
+            102.41299953653143,
+            2.2493725039791226
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 103,
+        "startTime": 1569888203461,
+        "endTime": 1569888313461,
+        "stroke": "rgb(240, 155, 210)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.46578013000656,
+            2.2127851161454117
+          ],
+          [
+            102.43453894122175,
+            1.981097883002682
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569888203461,
+        "endTime": 1569888313461,
+        "stroke": "rgb(240, 155, 210)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.88742129223532,
+            2.1385762656285543
+          ],
+          [
+            103.8743456232858,
+            2.345860807133451
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 2,
+        "startTime": 1569888218461,
+        "endTime": 1569888328461,
+        "stroke": "rgb(98, 190, 56)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.88742129223532,
+            2.1385762656285543
+          ],
+          [
+            103.88821808393556,
+            2.1252359265054643
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888218461,
+        "endTime": 1569888328461,
+        "stroke": "rgb(98, 190, 56)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.59176251673895,
+            1.6998012662759125
+          ],
+          [
+            103.65910788879182,
+            1.6647870760666523
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888218461,
+        "endTime": 1569888278461,
+        "stroke": "rgb(174, 123, 14)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.59176251673895,
+            1.6998012662759125
+          ],
+          [
+            103.77485173093926,
+            1.5550690756211012
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888218461,
+        "endTime": 1569888278461,
+        "stroke": "rgb(174, 123, 14)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.99614100907982,
+            1.600060976678619
+          ],
+          [
+            103.91368627343469,
+            1.752877835937448
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 208,
+        "startTime": 1569888223461,
+        "endTime": 1569888343461,
+        "stroke": "rgb(229, 162, 73)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.99614100907982,
+            1.600060976678619
+          ],
+          [
+            103.73961672847874,
+            1.8892516142753657
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1462,
+        "startTime": 1569888223461,
+        "endTime": 1569888343461,
+        "stroke": "rgb(229, 162, 73)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.90986885907388,
+            1.7577127306750746
+          ],
+          [
+            103.78218209266645,
+            1.8563684392867543
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1462,
+        "startTime": 1569888223461,
+        "endTime": 1569888313461,
+        "stroke": "rgb(6, 245, 156)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.90986885907388,
+            1.7577127306750746
+          ],
+          [
+            103.88987000897583,
+            2.099538200529567
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888223461,
+        "endTime": 1569888313461,
+        "stroke": "rgb(6, 245, 156)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.90986885907388,
+            1.7577127306750746
+          ],
+          [
+            103.83183969813905,
+            1.8180034182534044
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1462,
+        "startTime": 1569888223461,
+        "endTime": 1569888278461,
+        "stroke": "rgb(130, 133, 105)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.90986885907388,
+            1.7577127306750746
+          ],
+          [
+            103.77485173093926,
+            1.5550690756211012
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888223461,
+        "endTime": 1569888278461,
+        "stroke": "rgb(130, 133, 105)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.02180342925637,
+            3.5149870378115873
+          ],
+          [
+            106.35388463811786,
+            3.53188777999214
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569888233461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(134, 241, 246)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.02180342925637,
+            3.5149870378115873
+          ],
+          [
+            106.13884616710448,
+            3.520957371221865
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569888233461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(134, 241, 246)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.38027107508732,
+            4.812230613520594
+          ],
+          [
+            106.80127809488107,
+            6.98671714875324
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1780,
+        "startTime": 1569888233461,
+        "endTime": 1569889423461,
+        "stroke": "rgb(175, 216, 241)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.38027107508732,
+            4.812230613520594
+          ],
+          [
+            106.77737407680313,
+            6.950319910821098
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1108,
+        "startTime": 1569888233461,
+        "endTime": 1569889423461,
+        "stroke": "rgb(175, 216, 241)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.07864993108545,
+            1.9496709016258469
+          ],
+          [
+            102.88356604906132,
+            2.045328453442398
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888233461,
+        "endTime": 1569888343461,
+        "stroke": "rgb(227, 112, 19)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.07864993108545,
+            1.9496709016258469
+          ],
+          [
+            103.08032975025495,
+            1.9488470695696742
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888233461,
+        "endTime": 1569888343461,
+        "stroke": "rgb(227, 112, 19)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.62543550292953,
+            1.6822944650599807
+          ],
+          [
+            103.65910788879182,
+            1.6647870760666523
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888248461,
+        "endTime": 1569888278461,
+        "stroke": "rgb(208, 24, 196)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.62543550292953,
+            1.6822944650599807
+          ],
+          [
+            103.83183969813905,
+            1.8180034182534044
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1462,
+        "startTime": 1569888248461,
+        "endTime": 1569888278461,
+        "stroke": "rgb(208, 24, 196)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.09004657838287,
+            -0.3660660283769828
+          ],
+          [
+            106.10917555101848,
+            -0.37713918980687977
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888263461,
+        "endTime": 1569888273461,
+        "stroke": "rgb(100, 240, 235)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.09004657838287,
+            -0.3660660283769828
+          ],
+          [
+            105.96161267396242,
+            -0.26795022483432085
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888263461,
+        "endTime": 1569888273461,
+        "stroke": "rgb(100, 240, 235)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.11892826518242,
+            -0.3827800234114288
+          ],
+          [
+            106.15803021337717,
+            -0.40539363641947823
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888278461,
+        "endTime": 1569888298461,
+        "stroke": "rgb(169, 183, 85)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.11892826518242,
+            -0.3827800234114288
+          ],
+          [
+            106.00138176026722,
+            -0.313944149451276
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888278461,
+        "endTime": 1569888298461,
+        "stroke": "rgb(169, 183, 85)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.66163971696078,
+            1.661876716405058
+          ],
+          [
+            103.66977478316969,
+            1.6415278021415203
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888283461,
+        "endTime": 1569888318461,
+        "stroke": "rgb(196, 142, 77)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.66163971696078,
+            1.661876716405058
+          ],
+          [
+            103.77508797528795,
+            1.8618490413792996
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1462,
+        "startTime": 1569888283461,
+        "endTime": 1569888318461,
+        "stroke": "rgb(196, 142, 77)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.66163971696078,
+            1.661876716405058
+          ],
+          [
+            103.66977478316969,
+            1.6415278021415203
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1238,
+        "startTime": 1569888283461,
+        "endTime": 1569888318461,
+        "stroke": "rgb(125, 19, 95)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.66163971696078,
+            1.661876716405058
+          ],
+          [
+            103.74397517461033,
+            1.549587221671367
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1368,
+        "startTime": 1569888283461,
+        "endTime": 1569888318461,
+        "stroke": "rgb(125, 19, 95)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.1678057338485,
+            -0.4110470101905409
+          ],
+          [
+            106.24601040839997,
+            -0.4562735498129108
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888303461,
+        "endTime": 1569888343461,
+        "stroke": "rgb(135, 6, 222)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.1678057338485,
+            -0.4110470101905409
+          ],
+          [
+            106.08445460228708,
+            -0.36286312980651414
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888303461,
+        "endTime": 1569888343461,
+        "stroke": "rgb(135, 6, 222)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.91399472025495,
+            1.724772971853214
+          ],
+          [
+            103.11671879681786,
+            1.6167501514915732
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888323461,
+        "endTime": 1569888418461,
+        "stroke": "rgb(84, 213, 156)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.91399472025495,
+            1.724772971853214
+          ],
+          [
+            103.23250773121222,
+            1.4458598110677034
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888323461,
+        "endTime": 1569888418461,
+        "stroke": "rgb(84, 213, 156)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.87375118579246,
+            2.3552828146852884
+          ],
+          [
+            103.87196782525879,
+            2.383548828120412
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 2,
+        "startTime": 1569888333461,
+        "endTime": 1569888348461,
+        "stroke": "rgb(225, 230, 165)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.87375118579246,
+            2.3552828146852884
+          ],
+          [
+            103.88590691698761,
+            2.1618261392674674
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888333461,
+        "endTime": 1569888348461,
+        "stroke": "rgb(225, 230, 165)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.01762938709925,
+            0.5386418995225141
+          ],
+          [
+            104.73775653827718,
+            -0.15877341716604287
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1167,
+        "startTime": 1569888333461,
+        "endTime": 1569888813461,
+        "stroke": "rgb(1, 204, 159)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.01762938709925,
+            0.5386418995225141
+          ],
+          [
+            104.48928170154487,
+            -0.2610491797322952
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1834,
+        "startTime": 1569888333461,
+        "endTime": 1569888813461,
+        "stroke": "rgb(1, 204, 159)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.25578605940251,
+            -0.4619268084454436
+          ],
+          [
+            106.49040675294263,
+            -0.5976005438185669
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888348461,
+        "endTime": 1569888468461,
+        "stroke": "rgb(181, 65, 166)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.25578605940251,
+            -0.4619268084454436
+          ],
+          [
+            106.31215676060451,
+            -0.4945203410003876
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888348461,
+        "endTime": 1569888468461,
+        "stroke": "rgb(181, 65, 166)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91166241670282,
+            1.7604660036071929
+          ],
+          [
+            103.91166241670282,
+            1.7604660036071929
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 208,
+        "startTime": 1569888348461,
+        "endTime": 1569888348461,
+        "stroke": "rgb(201, 53, 43)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91166241670282,
+            1.7604660036071929
+          ],
+          [
+            103.73252234622966,
+            1.894732040740887
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1462,
+        "startTime": 1569888348461,
+        "endTime": 1569888348461,
+        "stroke": "rgb(201, 53, 43)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.87472406726239,
+            2.0496525294454813
+          ],
+          [
+            102.79524817691069,
+            2.088473204640812
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888348461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(208, 98, 127)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.87472406726239,
+            2.0496525294454813
+          ],
+          [
+            102.98927229413378,
+            1.9935006635094608
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888348461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(208, 98, 127)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.86962305773545,
+            2.392862374026074
+          ],
+          [
+            103.77414520479137,
+            2.6044965295290896
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 2,
+        "startTime": 1569888353461,
+        "endTime": 1569888468461,
+        "stroke": "rgb(42, 254, 138)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.86962305773545,
+            2.392862374026074
+          ],
+          [
+            103.87184631045828,
+            2.3854651557302127
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888353461,
+        "endTime": 1569888468461,
+        "stroke": "rgb(42, 254, 138)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91109534319061,
+            1.7693137447981941
+          ],
+          [
+            103.90599143652337,
+            1.8489433689518644
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 208,
+        "startTime": 1569888353461,
+        "endTime": 1569888398461,
+        "stroke": "rgb(46, 189, 41)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.91109534319061,
+            1.7693137447981941
+          ],
+          [
+            103.65727604631554,
+            1.9526500853804598
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1462,
+        "startTime": 1569888353461,
+        "endTime": 1569888398461,
+        "stroke": "rgb(46, 189, 41)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.56825440077272,
+            3.3428969365978354
+          ],
+          [
+            103.62157682644799,
+            3.3281252213570265
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 660,
+        "startTime": 1569888368461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(200, 113, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.56825440077272,
+            3.3428969365978354
+          ],
+          [
+            103.69878278794174,
+            3.1611666662487083
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 747,
+        "startTime": 1569888368461,
+        "endTime": 1569888393461,
+        "stroke": "rgb(200, 113, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.37461200088903,
+            2.275980297746888
+          ],
+          [
+            102.32902497279444,
+            2.3075757045427236
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 103,
+        "startTime": 1569888393461,
+        "endTime": 1569888488461,
+        "stroke": "rgb(70, 240, 102)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.37461200088903,
+            2.275980297746888
+          ],
+          [
+            102.32397253376068,
+            2.0401385379597925
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 381,
+        "startTime": 1569888393461,
+        "endTime": 1569888488461,
+        "stroke": "rgb(70, 240, 102)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.3642674454073,
+            3.5324249602119377
+          ],
+          [
+            106.5615547105003,
+            3.54263436368492
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569888398461,
+        "endTime": 1569888493461,
+        "stroke": "rgb(45, 142, 14)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.3642674454073,
+            3.5324249602119377
+          ],
+          [
+            106.34561787879213,
+            3.5314685076114616
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569888398461,
+        "endTime": 1569888493461,
+        "stroke": "rgb(45, 142, 14)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.6318346369386,
+            3.325283373215286
+          ],
+          [
+            103.77475030659119,
+            3.2856772624975257
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 660,
+        "startTime": 1569888398461,
+        "endTime": 1569888468461,
+        "stroke": "rgb(174, 215, 168)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.6318346369386,
+            3.325283373215286
+          ],
+          [
+            103.54351520094225,
+            3.155630013935357
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 747,
+        "startTime": 1569888398461,
+        "endTime": 1569888468461,
+        "stroke": "rgb(174, 215, 168)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.7863433387412,
+            2.092818350101869
+          ],
+          [
+            102.69652932541999,
+            2.1365969349772254
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888398461,
+        "endTime": 1569888448461,
+        "stroke": "rgb(241, 252, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.7863433387412,
+            2.092818350101869
+          ],
+          [
+            102.88910342051966,
+            2.0426137341830106
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888398461,
+        "endTime": 1569888448461,
+        "stroke": "rgb(241, 252, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.77736216332133,
+            2.0971964442427145
+          ],
+          [
+            102.72347405872878,
+            2.1234639116632694
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888403461,
+        "endTime": 1569888433461,
+        "stroke": "rgb(156, 87, 12)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.77736216332133,
+            2.0971964442427145
+          ],
+          [
+            102.6535493999659,
+            1.863966530004205
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569888403461,
+        "endTime": 1569888433461,
+        "stroke": "rgb(156, 87, 12)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.12391755022641,
+            1.6091148577406862
+          ],
+          [
+            103.12957310675507,
+            1.6006127464338678
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888423461,
+        "endTime": 1569888428461,
+        "stroke": "rgb(240, 129, 26)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.12391755022641,
+            1.6091148577406862
+          ],
+          [
+            103.24200415894991,
+            1.4315813995603806
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888423461,
+        "endTime": 1569888428461,
+        "stroke": "rgb(240, 129, 26)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.1352286166962,
+            1.592110618727634
+          ],
+          [
+            103.2426747835925,
+            1.430567192479588
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888433461,
+        "endTime": 1569888528461,
+        "stroke": "rgb(55, 226, 46)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.1352286166962,
+            1.592110618727634
+          ],
+          [
+            103.3281599856981,
+            1.3020229344509722
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888433461,
+        "endTime": 1569888528461,
+        "stroke": "rgb(55, 226, 46)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.26290863688187,
+            3.527269587859319
+          ],
+          [
+            106.34561787879213,
+            3.5314685076114616
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1258,
+        "startTime": 1569888453461,
+        "endTime": 1569888493461,
+        "stroke": "rgb(97, 31, 135)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.26290863688187,
+            3.527269587859319
+          ],
+          [
+            106.32155512091026,
+            3.7102396292919275
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1289,
+        "startTime": 1569888453461,
+        "endTime": 1569888493461,
+        "stroke": "rgb(97, 31, 135)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.68754764606642,
+            2.1409745034440126
+          ],
+          [
+            102.64263848273983,
+            2.162861546084526
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 674,
+        "startTime": 1569888453461,
+        "endTime": 1569888478461,
+        "stroke": "rgb(46, 132, 249)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.68754764606642,
+            2.1409745034440126
+          ],
+          [
+            102.8340104778186,
+            2.069511948830184
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888453461,
+        "endTime": 1569888478461,
+        "stroke": "rgb(46, 132, 249)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.70511621969116,
+            1.8364030042266166
+          ],
+          [
+            102.73949322018547,
+            1.818026482868082
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 831,
+        "startTime": 1569888463461,
+        "endTime": 1569888483461,
+        "stroke": "rgb(211, 12, 230)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.70511621969116,
+            1.8364030042266166
+          ],
+          [
+            102.82481468653152,
+            2.073998122481327
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888463461,
+        "endTime": 1569888483461,
+        "stroke": "rgb(211, 12, 230)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.76999328955748,
+            2.6136978381068197
+          ],
+          [
+            103.72016552898305,
+            2.7241123440067665
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 2,
+        "startTime": 1569888473461,
+        "endTime": 1569888533461,
+        "stroke": "rgb(20, 69, 51)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.76999328955748,
+            2.6136978381068197
+          ],
+          [
+            103.89100221637808,
+            2.51742368104942
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1418,
+        "startTime": 1569888473461,
+        "endTime": 1569888533461,
+        "stroke": "rgb(20, 69, 51)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.50046792685873,
+            -0.6034177791734843
+          ],
+          [
+            106.5208438726697,
+            -0.6151983704323841
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888473461,
+        "endTime": 1569888483461,
+        "stroke": "rgb(180, 118, 83)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.50046792685873,
+            -0.6034177791734843
+          ],
+          [
+            106.3394711490877,
+            -0.5103164945737586
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888473461,
+        "endTime": 1569888483461,
+        "stroke": "rgb(180, 118, 83)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.52948699598426,
+            -0.6225271828260095
+          ],
+          [
+            106.65633696868122,
+            -0.7350647900352316
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888488461,
+        "endTime": 1569888563461,
+        "stroke": "rgb(234, 140, 139)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.52948699598426,
+            -0.6225271828260095
+          ],
+          [
+            106.48515023869112,
+            -0.5945605731868793
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888488461,
+        "endTime": 1569888563461,
+        "stroke": "rgb(234, 140, 139)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.57193837033951,
+            3.5431705333513808
+          ],
+          [
+            106.92498991096484,
+            3.561330653066853
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569888498461,
+        "endTime": 1569888668461,
+        "stroke": "rgb(224, 43, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.57193837033951,
+            3.5431705333513808
+          ],
+          [
+            106.70772116466168,
+            3.5501709819958256
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569888498461,
+        "endTime": 1569888668461,
+        "stroke": "rgb(224, 43, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.3559572392718,
+            3.5319939871239585
+          ],
+          [
+            106.52149149510262,
+            3.540564562598854
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1258,
+        "startTime": 1569888498461,
+        "endTime": 1569888578461,
+        "stroke": "rgb(216, 106, 15)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.3559572392718,
+            3.5319939871239585
+          ],
+          [
+            106.35440863058317,
+            3.535115310755149
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1289,
+        "startTime": 1569888498461,
+        "endTime": 1569888578461,
+        "stroke": "rgb(216, 106, 15)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.24747572972335,
+            1.4233482958816037
+          ],
+          [
+            103.37568395750493,
+            1.2305483402378474
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888533461,
+        "endTime": 1569888678461,
+        "stroke": "rgb(13, 77, 170)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.24747572972335,
+            1.4233482958816037
+          ],
+          [
+            103.45703358921537,
+            1.1081964514977525
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888533461,
+        "endTime": 1569888678461,
+        "stroke": "rgb(13, 77, 170)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.66479384856699,
+            -0.7425671724381059
+          ],
+          [
+            106.68170769416463,
+            -0.7575718874555198
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888568461,
+        "endTime": 1569888578461,
+        "stroke": "rgb(231, 133, 211)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.66479384856699,
+            -0.7425671724381059
+          ],
+          [
+            106.51331006014345,
+            -0.6108425515812912
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888568461,
+        "endTime": 1569888578461,
+        "stroke": "rgb(231, 133, 211)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.48305954462923,
+            1.9551408252955367
+          ],
+          [
+            102.49238835779803,
+            1.9501497555661251
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569888573461,
+        "endTime": 1569888578461,
+        "stroke": "rgb(27, 160, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.48305954462923,
+            1.9551408252955367
+          ],
+          [
+            102.64826402790975,
+            2.1601175734194604
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888573461,
+        "endTime": 1569888578461,
+        "stroke": "rgb(27, 160, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6901646604528,
+            -0.765074219735689
+          ],
+          [
+            107.20610605454392,
+            -1.2226779382550101
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1205,
+        "startTime": 1569888583461,
+        "endTime": 1569888888461,
+        "stroke": "rgb(180, 205, 153)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6901646604528,
+            -0.765074219735689
+          ],
+          [
+            107.00397882270502,
+            -1.0434305392073329
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1190,
+        "startTime": 1569888583461,
+        "endTime": 1569888888461,
+        "stroke": "rgb(180, 205, 153)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.53183748701075,
+            3.541099238917246
+          ],
+          [
+            106.61460584946818,
+            3.5453724738808323
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1258,
+        "startTime": 1569888583461,
+        "endTime": 1569888623461,
+        "stroke": "rgb(204, 240, 68)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.53183748701075,
+            3.541099238917246
+          ],
+          [
+            106.37184999133177,
+            3.442243254950975
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1289,
+        "startTime": 1569888583461,
+        "endTime": 1569888623461,
+        "stroke": "rgb(204, 240, 68)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.50171711599658,
+            1.9451586335340119
+          ],
+          [
+            102.54836008735481,
+            1.9202022435318726
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569888583461,
+        "endTime": 1569888608461,
+        "stroke": "rgb(142, 179, 4)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.50171711599658,
+            1.9451586335340119
+          ],
+          [
+            102.5852142027736,
+            2.1636819869077724
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888583461,
+        "endTime": 1569888608461,
+        "stroke": "rgb(142, 179, 4)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.55796496696912,
+            1.9150671045490215
+          ],
+          [
+            102.58714804087997,
+            1.8994696503622528
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569888613461,
+        "endTime": 1569888628461,
+        "stroke": "rgb(238, 81, 79)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.55796496696912,
+            1.9150671045490215
+          ],
+          [
+            102.54254306649636,
+            2.163944045063208
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888613461,
+        "endTime": 1569888628461,
+        "stroke": "rgb(238, 81, 79)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.3624219403343,
+            1.2504934810692898
+          ],
+          [
+            103.45525203527606,
+            1.1108760783845912
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888663461,
+        "endTime": 1569888768461,
+        "stroke": "rgb(14, 158, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.3624219403343,
+            1.2504934810692898
+          ],
+          [
+            103.27522369670798,
+            1.1186201023668672
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1499,
+        "startTime": 1569888663461,
+        "endTime": 1569888768461,
+        "stroke": "rgb(14, 158, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.93504476598308,
+            3.563739812138712
+          ],
+          [
+            107.1353582767001,
+            3.6164358697761307
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569888673461,
+        "endTime": 1569888773461,
+        "stroke": "rgb(128, 125, 118)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.93504476598308,
+            3.563739812138712
+          ],
+          [
+            106.92499396677255,
+            3.5613308609051137
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569888673461,
+        "endTime": 1569888773461,
+        "stroke": "rgb(128, 125, 118)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.38010458595826,
+            1.2238999444951397
+          ],
+          [
+            103.4243096926118,
+            1.1574155724613107
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888683461,
+        "endTime": 1569888733461,
+        "stroke": "rgb(181, 130, 22)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.38010458595826,
+            1.2238999444951397
+          ],
+          [
+            103.49721444032689,
+            1.0434758755638447
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888683461,
+        "endTime": 1569888733461,
+        "stroke": "rgb(181, 130, 22)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.22824646686821,
+            2.3774128904612555
+          ],
+          [
+            102.16105518594887,
+            2.4239668792356244
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 103,
+        "startTime": 1569888698461,
+        "endTime": 1569888838461,
+        "stroke": "rgb(218, 136, 227)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.22824646686821,
+            2.3774128904612555
+          ],
+          [
+            102.09449526567118,
+            2.16662274497424
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888698461,
+        "endTime": 1569888838461,
+        "stroke": "rgb(218, 136, 227)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4287300880934,
+            1.1507670947140083
+          ],
+          [
+            103.45525203527606,
+            1.1108760783845912
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888738461,
+        "endTime": 1569888768461,
+        "stroke": "rgb(180, 152, 207)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.4287300880934,
+            1.1507670947140083
+          ],
+          [
+            103.53853366696103,
+            1.0469859991107344
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888738461,
+        "endTime": 1569888768461,
+        "stroke": "rgb(180, 152, 207)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.45925997086454,
+            1.1046575862315275
+          ],
+          [
+            103.49508468997641,
+            1.0469090599569355
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888773461,
+        "endTime": 1569888823461,
+        "stroke": "rgb(46, 65, 127)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.45925997086454,
+            1.1046575862315275
+          ],
+          [
+            103.36447028491773,
+            1.0878406998511394
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1499,
+        "startTime": 1569888773461,
+        "endTime": 1569888823461,
+        "stroke": "rgb(46, 65, 127)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.45925997086454,
+            1.1046575862315275
+          ],
+          [
+            103.49508468997641,
+            1.0469090599569355
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888773461,
+        "endTime": 1569888823461,
+        "stroke": "rgb(98, 89, 125)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.45925997086454,
+            1.1046575862315275
+          ],
+          [
+            103.60460575039582,
+            1.0557283471114787
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888773461,
+        "endTime": 1569888823461,
+        "stroke": "rgb(98, 89, 125)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.14537455657899,
+            3.619069511325448
+          ],
+          [
+            109.58114058498828,
+            4.255552421919603
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569888778461,
+        "endTime": 1569889993461,
+        "stroke": "rgb(168, 116, 4)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.14537455657899,
+            3.619069511325448
+          ],
+          [
+            109.37049315069812,
+            4.200836424561696
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569888778461,
+        "endTime": 1569889993461,
+        "stroke": "rgb(168, 116, 4)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.29145048593873,
+            1.1130240488216738
+          ],
+          [
+            103.49428028929867,
+            1.0430659268317253
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1499,
+        "startTime": 1569888778461,
+        "endTime": 1569888903461,
+        "stroke": "rgb(114, 170, 133)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.29145048593873,
+            1.1130240488216738
+          ],
+          [
+            103.70071125863437,
+            1.0684419631069249
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888778461,
+        "endTime": 1569888903461,
+        "stroke": "rgb(114, 170, 133)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.49889346222929,
+            1.0417402964137181
+          ],
+          [
+            103.58945837999572,
+            1.0537242469091497
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888828461,
+        "endTime": 1569888903461,
+        "stroke": "rgb(236, 178, 102)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.49889346222929,
+            1.0417402964137181
+          ],
+          [
+            103.49428028929867,
+            1.0430659268317253
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1499,
+        "startTime": 1569888828461,
+        "endTime": 1569888903461,
+        "stroke": "rgb(236, 178, 102)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.49889346222929,
+            1.0417402964137181
+          ],
+          [
+            103.6196468393326,
+            1.05771830950048
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888828461,
+        "endTime": 1569888928461,
+        "stroke": "rgb(60, 152, 42)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.49889346222929,
+            1.0417402964137181
+          ],
+          [
+            103.73074439154111,
+            1.07241434908477
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888828461,
+        "endTime": 1569888928461,
+        "stroke": "rgb(60, 152, 42)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.15865541295526,
+            2.4256294594876735
+          ],
+          [
+            102.15865541295526,
+            2.4256294594876735
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 103,
+        "startTime": 1569888843461,
+        "endTime": 1569888843461,
+        "stroke": "rgb(127, 110, 113)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.15865541295526,
+            2.4256294594876735
+          ],
+          [
+            102.0838475012626,
+            2.1669038835404812
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1747,
+        "startTime": 1569888843461,
+        "endTime": 1569888843461,
+        "stroke": "rgb(127, 110, 113)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.5954960657021,
+            1.0545230830257242
+          ],
+          [
+            103.72832593408212,
+            1.0720944788356879
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888908461,
+        "endTime": 1569889018461,
+        "stroke": "rgb(146, 69, 13)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.5954960657021,
+            1.0545230830257242
+          ],
+          [
+            103.64563232642932,
+            1.0611560559392705
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1499,
+        "startTime": 1569888908461,
+        "endTime": 1569889018461,
+        "stroke": "rgb(146, 69, 13)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.50161000630214,
+            1.042099801138774
+          ],
+          [
+            103.52779575300558,
+            1.045565071408826
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1499,
+        "startTime": 1569888908461,
+        "endTime": 1569888928461,
+        "stroke": "rgb(38, 185, 145)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.50161000630214,
+            1.042099801138774
+          ],
+          [
+            103.73074439154111,
+            1.07241434908477
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888908461,
+        "endTime": 1569888928461,
+        "stroke": "rgb(38, 185, 145)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.14495185752165,
+            1.5774942742092004
+          ],
+          [
+            103.24065237806927,
+            1.4336136600526157
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569888923461,
+        "endTime": 1569889013461,
+        "stroke": "rgb(98, 211, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.14495185752165,
+            1.5774942742092004
+          ],
+          [
+            103.37163283153808,
+            1.236643197796603
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569888923461,
+        "endTime": 1569889013461,
+        "stroke": "rgb(98, 211, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.62568454045292,
+            1.0585170865765885
+          ],
+          [
+            103.72832593408212,
+            1.0720944788356879
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569888933461,
+        "endTime": 1569889018461,
+        "stroke": "rgb(22, 64, 239)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.62568454045292,
+            1.0585170865765885
+          ],
+          [
+            103.8269124597844,
+            1.0846616638500641
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888933461,
+        "endTime": 1569889018461,
+        "stroke": "rgb(22, 64, 239)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.53434219864589,
+            1.0464313546468123
+          ],
+          [
+            103.71109759812279,
+            1.0698157655010345
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1499,
+        "startTime": 1569888933461,
+        "endTime": 1569889068461,
+        "stroke": "rgb(38, 102, 251)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.53434219864589,
+            1.0464313546468123
+          ],
+          [
+            103.88029949236629,
+            1.0914575365974706
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569888933461,
+        "endTime": 1569889068461,
+        "stroke": "rgb(38, 102, 251)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.87830447202414,
+            2.151945546250599
+          ],
+          [
+            108.20652203193116,
+            2.0600340724391133
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569888973461,
+        "endTime": 1569889138461,
+        "stroke": "rgb(55, 192, 220)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.87830447202414,
+            2.151945546250599
+          ],
+          [
+            108.46318735605165,
+            1.988104550542961
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569888973461,
+        "endTime": 1569889138461,
+        "stroke": "rgb(55, 192, 220)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.245577042606,
+            1.4262089549453936
+          ],
+          [
+            103.3171400358151,
+            1.3185952133139451
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569889018461,
+        "endTime": 1569889108461,
+        "stroke": "rgb(167, 175, 140)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.245577042606,
+            1.4262089549453936
+          ],
+          [
+            103.45358140294105,
+            1.1133889761292164
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569889018461,
+        "endTime": 1569889108461,
+        "stroke": "rgb(167, 175, 140)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.7339123376417,
+            1.0728209315740318
+          ],
+          [
+            103.79536144573984,
+            1.0806449345963227
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569889023461,
+        "endTime": 1569889083461,
+        "stroke": "rgb(213, 22, 19)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.7339123376417,
+            1.0728209315740318
+          ],
+          [
+            103.73073725107021,
+            1.0724134046740612
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1499,
+        "startTime": 1569889023461,
+        "endTime": 1569889083461,
+        "stroke": "rgb(213, 22, 19)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.7339123376417,
+            1.0728209315740318
+          ],
+          [
+            103.77999913932521,
+            1.07868905081294
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569889023461,
+        "endTime": 1569889068461,
+        "stroke": "rgb(246, 43, 232)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.7339123376417,
+            1.0728209315740318
+          ],
+          [
+            103.88029949236629,
+            1.0914575365974706
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 29,
+        "startTime": 1569889023461,
+        "endTime": 1569889068461,
+        "stroke": "rgb(246, 43, 232)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.80048221890999,
+            1.0812968784827521
+          ],
+          [
+            103.87729407935791,
+            1.0910749903090464
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569889088461,
+        "endTime": 1569889163461,
+        "stroke": "rgb(122, 88, 185)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.80048221890999,
+            1.0812968784827521
+          ],
+          [
+            103.82275650530289,
+            1.0841325927975622
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1499,
+        "startTime": 1569889088461,
+        "endTime": 1569889163461,
+        "stroke": "rgb(122, 88, 185)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.32111557281479,
+            1.3126166070480039
+          ],
+          [
+            103.36086991843713,
+            1.2528301838180131
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569889113461,
+        "endTime": 1569889163461,
+        "stroke": "rgb(153, 216, 228)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.32111557281479,
+            1.3126166070480039
+          ],
+          [
+            103.49712810553031,
+            1.0436150485181122
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569889113461,
+        "endTime": 1569889163461,
+        "stroke": "rgb(153, 216, 228)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.21646742271446,
+            2.0572477978561414
+          ],
+          [
+            108.23635810078538,
+            2.0516750614377317
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569889143461,
+        "endTime": 1569889153461,
+        "stroke": "rgb(21, 187, 246)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.21646742271446,
+            2.0572477978561414
+          ],
+          [
+            108.49156651165205,
+            1.9801440683410254
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569889143461,
+        "endTime": 1569889153461,
+        "stroke": "rgb(21, 187, 246)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.8721732732807,
+            1.0904231774150475
+          ],
+          [
+            103.87729407935791,
+            1.0910749903090464
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 835,
+        "startTime": 1569889158461,
+        "endTime": 1569889163461,
+        "stroke": "rgb(141, 144, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.8721732732807,
+            1.0904231774150475
+          ],
+          [
+            103.93686576630915,
+            0.835118182483354
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 845,
+        "startTime": 1569889158461,
+        "endTime": 1569889163461,
+        "stroke": "rgb(141, 144, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.24630338816527,
+            2.0488885997720105
+          ],
+          [
+            108.46509109526814,
+            1.9875708590458905
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569889158461,
+        "endTime": 1569889268461,
+        "stroke": "rgb(145, 44, 52)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.24630338816527,
+            2.0488885997720105
+          ],
+          [
+            108.72332036446326,
+            1.9171090724525133
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569889158461,
+        "endTime": 1569889268461,
+        "stroke": "rgb(145, 44, 52)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.82850272970015,
+            1.0848641105476116
+          ],
+          [
+            103.88021887369145,
+            1.0914472750286388
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1499,
+        "startTime": 1569889168461,
+        "endTime": 1569889213461,
+        "stroke": "rgb(135, 75, 232)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.82850272970015,
+            1.0848641105476116
+          ],
+          [
+            103.9246362866027,
+            0.8922461203435652
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 845,
+        "startTime": 1569889168461,
+        "endTime": 1569889213461,
+        "stroke": "rgb(135, 75, 232)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.36484525245615,
+            1.2468515061047794
+          ],
+          [
+            103.45627315874462,
+            1.109340237551499
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569889168461,
+        "endTime": 1569889283461,
+        "stroke": "rgb(158, 222, 252)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.36484525245615,
+            1.2468515061047794
+          ],
+          [
+            103.64441002053942,
+            1.060994356239753
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569889168461,
+        "endTime": 1569889283461,
+        "stroke": "rgb(158, 222, 252)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.96851345178293,
+            0.6840123762722091
+          ],
+          [
+            103.96041023506358,
+            0.7248750137685157
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 134,
+        "startTime": 1569889263461,
+        "endTime": 1569889293461,
+        "stroke": "rgb(70, 106, 60)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.96851345178293,
+            0.6840123762722091
+          ],
+          [
+            103.90506832429713,
+            0.9836506971978057
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 845,
+        "startTime": 1569889263461,
+        "endTime": 1569889293461,
+        "stroke": "rgb(70, 106, 60)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.47503828617317,
+            1.9847815710827164
+          ],
+          [
+            108.4949455635083,
+            1.9791959476363028
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569889273461,
+        "endTime": 1569889283461,
+        "stroke": "rgb(77, 137, 85)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.47503828617317,
+            1.9847815710827164
+          ],
+          [
+            108.753644825456,
+            1.908868318516971
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569889273461,
+        "endTime": 1569889283461,
+        "stroke": "rgb(77, 137, 85)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.45989241644925,
+            1.1036381230913017
+          ],
+          [
+            103.49796370083948,
+            1.0422680560447135
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569889288461,
+        "endTime": 1569889343461,
+        "stroke": "rgb(198, 203, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.45989241644925,
+            1.1036381230913017
+          ],
+          [
+            103.71839618808173,
+            1.0707811289831113
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569889288461,
+        "endTime": 1569889343461,
+        "stroke": "rgb(198, 203, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.65057551668255,
+            1.061809988897237
+          ],
+          [
+            103.73072726150993,
+            1.072412083437964
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 831,
+        "startTime": 1569889288461,
+        "endTime": 1569889353461,
+        "stroke": "rgb(24, 47, 190)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.65057551668255,
+            1.061809988897237
+          ],
+          [
+            103.89039165919348,
+            1.0522040219040896
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 845,
+        "startTime": 1569889288461,
+        "endTime": 1569889353461,
+        "stroke": "rgb(24, 47, 190)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.50507259918845,
+            1.976400045414395
+          ],
+          [
+            109.30883654130625,
+            1.7578870892819825
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569889288461,
+        "endTime": 1569889678461,
+        "stroke": "rgb(129, 107, 128)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.50507259918845,
+            1.976400045414395
+          ],
+          [
+            109.5520887815129,
+            1.6916750165567704
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569889288461,
+        "endTime": 1569889678461,
+        "stroke": "rgb(129, 107, 128)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.96091722910094,
+            0.7311501680228423
+          ],
+          [
+            103.97788126886492,
+            0.771210466641785
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 134,
+        "startTime": 1569889298461,
+        "endTime": 1569889333461,
+        "stroke": "rgb(97, 241, 70)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.96091722910094,
+            0.7311501680228423
+          ],
+          [
+            103.89528395002488,
+            1.0293529244296606
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 845,
+        "startTime": 1569889298461,
+        "endTime": 1569889333461,
+        "stroke": "rgb(97, 241, 70)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.50297808155811,
+            1.0422808499257263
+          ],
+          [
+            103.5081801567351,
+            1.0429692781850246
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569889348461,
+        "endTime": 1569889353461,
+        "stroke": "rgb(216, 50, 182)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.50297808155811,
+            1.0422808499257263
+          ],
+          [
+            103.73072726150993,
+            1.072412083437964
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569889348461,
+        "endTime": 1569889353461,
+        "stroke": "rgb(216, 50, 182)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.51338223417268,
+            1.0436576977876386
+          ],
+          [
+            103.6538391848395,
+            1.0622417339364392
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 381,
+        "startTime": 1569889358461,
+        "endTime": 1569889493461,
+        "stroke": "rgb(94, 68, 21)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.51338223417268,
+            1.0436576977876386
+          ],
+          [
+            103.87925084091563,
+            1.091324058551635
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569889358461,
+        "endTime": 1569889493461,
+        "stroke": "rgb(94, 68, 21)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.73612150699006,
+            1.073102236168636
+          ],
+          [
+            103.7626268105404,
+            1.0764771598091523
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 831,
+        "startTime": 1569889358461,
+        "endTime": 1569889383461,
+        "stroke": "rgb(128, 241, 51)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.73612150699006,
+            1.073102236168636
+          ],
+          [
+            103.88305308897515,
+            1.0864806472616642
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 845,
+        "startTime": 1569889358461,
+        "endTime": 1569889383461,
+        "stroke": "rgb(128, 241, 51)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.80708863779634,
+            6.995568081955151
+          ],
+          [
+            106.80708863779634,
+            6.995568081955151
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1780,
+        "startTime": 1569889428461,
+        "endTime": 1569889428461,
+        "stroke": "rgb(224, 150, 154)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.80708863779634,
+            6.995568081955151
+          ],
+          [
+            106.78308589476975,
+            6.959017698112222
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1108,
+        "startTime": 1569889428461,
+        "endTime": 1569889428461,
+        "stroke": "rgb(224, 150, 154)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.8129524400937,
+            7.0044932141911955
+          ],
+          [
+            106.82495985498976,
+            7.022750690751167
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1780,
+        "startTime": 1569889433461,
+        "endTime": 1569889443461,
+        "stroke": "rgb(246, 99, 158)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.8129524400937,
+            7.0044932141911955
+          ],
+          [
+            106.800222611414,
+            6.985110626844162
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1108,
+        "startTime": 1569889433461,
+        "endTime": 1569889443461,
+        "stroke": "rgb(246, 99, 158)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.83096391346515,
+            7.031879308491461
+          ],
+          [
+            106.83096391346515,
+            7.031879308491461
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1780,
+        "startTime": 1569889448461,
+        "endTime": 1569889448461,
+        "stroke": "rgb(195, 130, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.83096391346515,
+            7.031879308491461
+          ],
+          [
+            106.8059429573876,
+            6.9938228212042475
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1108,
+        "startTime": 1569889448461,
+        "endTime": 1569889448461,
+        "stroke": "rgb(195, 130, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.8369682063782,
+            7.041007845727534
+          ],
+          [
+            108.32194295295092,
+            9.283907786331552
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1780,
+        "startTime": 1569889453461,
+        "endTime": 1569890683461,
+        "stroke": "rgb(9, 90, 226)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.8369682063782,
+            7.041007845727534
+          ],
+          [
+            108.26080034640073,
+            9.19218802980843
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1108,
+        "startTime": 1569889453461,
+        "endTime": 1569890683461,
+        "stroke": "rgb(9, 90, 226)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.03604620024967,
+            0.9085594636172797
+          ],
+          [
+            104.0554354541156,
+            0.9543422376788016
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 134,
+        "startTime": 1569889453461,
+        "endTime": 1569889493461,
+        "stroke": "rgb(247, 168, 94)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.03604620024967,
+            0.9085594636172797
+          ],
+          [
+            103.87925084091563,
+            1.091324058551635
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 831,
+        "startTime": 1569889453461,
+        "endTime": 1569889493461,
+        "stroke": "rgb(247, 168, 94)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.13085759604947,
+            7.02011234053558
+          ],
+          [
+            104.1239735653168,
+            7.147660809933515
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 537,
+        "startTime": 1569889473461,
+        "endTime": 1569889533461,
+        "stroke": "rgb(199, 166, 120)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.13085759604947,
+            7.02011234053558
+          ],
+          [
+            104.28983875600589,
+            7.358648833009617
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 5,
+        "startTime": 1569889473461,
+        "endTime": 1569889533461,
+        "stroke": "rgb(199, 166, 120)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.31913994382155,
+            1.7550832857981233
+          ],
+          [
+            109.55610982873543,
+            1.690580207462413
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569889683461,
+        "endTime": 1569889798461,
+        "stroke": "rgb(163, 186, 73)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.31913994382155,
+            1.7550832857981233
+          ],
+          [
+            109.78286215280502,
+            1.6864469075854769
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569889683461,
+        "endTime": 1569889798461,
+        "stroke": "rgb(163, 186, 73)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.56598398371568,
+            1.6901295214033074
+          ],
+          [
+            110.29283522781992,
+            1.6776917535791354
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569889803461,
+        "endTime": 1569890173461,
+        "stroke": "rgb(69, 10, 58)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.56598398371568,
+            1.6901295214033074
+          ],
+          [
+            110.503228374896,
+            1.6740407210870003
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569889803461,
+        "endTime": 1569890173461,
+        "stroke": "rgb(69, 10, 58)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.1227431140322,
+            4.665819902696719
+          ],
+          [
+            110.04705966704766,
+            4.608465972288408
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 368,
+        "startTime": 1569889913461,
+        "endTime": 1569889958461,
+        "stroke": "rgb(134, 29, 152)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.1227431140322,
+            4.665819902696719
+          ],
+          [
+            110.24194410268498,
+            4.425097529153078
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 565,
+        "startTime": 1569889913461,
+        "endTime": 1569889958461,
+        "stroke": "rgb(134, 29, 152)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.59118002572643,
+            4.258135862620397
+          ],
+          [
+            109.79200196266271,
+            4.3097270957681495
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569889998461,
+        "endTime": 1569890098461,
+        "stroke": "rgb(237, 103, 41)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.59118002572643,
+            4.258135862620397
+          ],
+          [
+            109.58114058498828,
+            4.255552421919603
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569889998461,
+        "endTime": 1569890098461,
+        "stroke": "rgb(237, 103, 41)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.71166995740447,
+            4.2890969474958744
+          ],
+          [
+            109.94263615778293,
+            4.348385659072264
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569890058461,
+        "endTime": 1569890173461,
+        "stroke": "rgb(224, 17, 163)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.71166995740447,
+            4.2890969474958744
+          ],
+          [
+            109.68562579101228,
+            4.334330924284977
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 368,
+        "startTime": 1569890058461,
+        "endTime": 1569890173461,
+        "stroke": "rgb(224, 17, 163)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.80204376736368,
+            4.312305266917371
+          ],
+          [
+            111.72131287325846,
+            4.802203291905405
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569890103461,
+        "endTime": 1569891058461,
+        "stroke": "rgb(116, 165, 12)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.80204376736368,
+            4.312305266917371
+          ],
+          [
+            111.51017183850679,
+            4.748594904240152
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569890103461,
+        "endTime": 1569891058461,
+        "stroke": "rgb(116, 165, 12)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.80327254619196,
+            4.423603935065737
+          ],
+          [
+            109.59320844662197,
+            4.264174823692923
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 368,
+        "startTime": 1569890103461,
+        "endTime": 1569890228461,
+        "stroke": "rgb(60, 198, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.80327254619196,
+            4.423603935065737
+          ],
+          [
+            109.84221259027093,
+            4.32261662287059
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569890103461,
+        "endTime": 1569890228461,
+        "stroke": "rgb(60, 198, 81)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.30265747866672,
+            1.6775218107386782
+          ],
+          [
+            110.5089243543465,
+            1.6739415604086116
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569890178461,
+        "endTime": 1569890283461,
+        "stroke": "rgb(89, 79, 175)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.30265747866672,
+            1.6775218107386782
+          ],
+          [
+            110.52776970959141,
+            1.6155125980476777
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569890178461,
+        "endTime": 1569890283461,
+        "stroke": "rgb(89, 79, 175)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.51252794517299,
+            1.6718014007226691
+          ],
+          [
+            111.00938604035898,
+            -0.11660584716234645
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569890288461,
+        "endTime": 1569893253461,
+        "stroke": "rgb(214, 98, 252)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.51252794517299,
+            1.6718014007226691
+          ],
+          [
+            110.9731027178008,
+            -0.028529015314593745
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569890288461,
+        "endTime": 1569893253461,
+        "stroke": "rgb(214, 98, 252)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.68204883159784,
+            -5.018516667634049
+          ],
+          [
+            106.91493886852469,
+            -5.63986466767426
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 107,
+        "startTime": 1569890383461,
+        "endTime": 1569890678461,
+        "stroke": "rgb(217, 131, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.68204883159784,
+            -5.018516667634049
+          ],
+          [
+            106.6450378425838,
+            -5.64673439763592
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1049,
+        "startTime": 1569890383461,
+        "endTime": 1569890678461,
+        "stroke": "rgb(217, 131, 1)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.7313594344208,
+            4.804752397201112
+          ],
+          [
+            111.85191106568737,
+            4.8353271092657035
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569891063461,
+        "endTime": 1569891123461,
+        "stroke": "rgb(15, 206, 104)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.7313594344208,
+            4.804752397201112
+          ],
+          [
+            111.64087904609153,
+            4.781788725175466
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569891063461,
+        "endTime": 1569891123461,
+        "stroke": "rgb(15, 206, 104)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.86208444365903,
+            4.837946579568957
+          ],
+          [
+            111.93369538305078,
+            4.856504350501618
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569891128461,
+        "endTime": 1569891163461,
+        "stroke": "rgb(167, 76, 248)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.86208444365903,
+            4.837946579568957
+          ],
+          [
+            111.72132049878878,
+            4.802203291917066
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569891128461,
+        "endTime": 1569891163461,
+        "stroke": "rgb(167, 76, 248)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.94392583648674,
+            4.8591548399987206
+          ],
+          [
+            112.06669752350804,
+            4.890948566657975
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569891168461,
+        "endTime": 1569891228461,
+        "stroke": "rgb(42, 186, 2)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.94392583648674,
+            4.8591548399987206
+          ],
+          [
+            111.85191124359953,
+            4.835327109231776
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569891168461,
+        "endTime": 1569891228461,
+        "stroke": "rgb(42, 186, 2)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.07692901911301,
+            4.893597028985228
+          ],
+          [
+            112.25087678471974,
+            4.938596867432539
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 172,
+        "startTime": 1569891233461,
+        "endTime": 1569891318461,
+        "stroke": "rgb(176, 36, 77)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.07692901911301,
+            4.893597028985228
+          ],
+          [
+            112.03715228541283,
+            4.883299672448502
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 1258,
+        "startTime": 1569891233461,
+        "endTime": 1569891318461,
+        "stroke": "rgb(176, 36, 77)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.0354960287713,
+            9.299734562051428
+          ],
+          [
+            108.17774640704127,
+            9.357101322143262
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 5,
+        "startTime": 1569891323461,
+        "endTime": 1569891388461,
+        "stroke": "rgb(60, 242, 78)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.0354960287713,
+            9.299734562051428
+          ],
+          [
+            108.26779222804193,
+            9.202679470888828
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 574,
+        "startTime": 1569891323461,
+        "endTime": 1569891388461,
+        "stroke": "rgb(60, 242, 78)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.00857282250657,
+            -0.11515741387633431
+          ],
+          [
+            111.00857282250657,
+            -0.11515741387633431
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569893258461,
+        "endTime": 1569893258461,
+        "stroke": "rgb(153, 72, 179)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.00857282250657,
+            -0.11515741387633431
+          ],
+          [
+            110.97385224293369,
+            -0.03129679595435649
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569893258461,
+        "endTime": 1569893258461,
+        "stroke": "rgb(153, 72, 179)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.00605640951551,
+            -0.10910315020162076
+          ],
+          [
+            110.37180350246778,
+            1.4165438462039364
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory A",
+        "trajectoryId": 1898,
+        "startTime": 1569893263461,
+        "endTime": 1569894523461,
+        "stroke": "rgb(185, 239, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.00605640951551,
+            -0.10910315020162076
+          ],
+          [
+            110.3450929980399,
+            1.4807624811333244
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trajectory B",
+        "trajectoryId": 860,
+        "startTime": 1569893263461,
+        "endTime": 1569894523461,
+        "stroke": "rgb(185, 239, 224)",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.05167069501552,
+              1.8446738751910678
+            ],
+            [
+              104.102774850098,
+              1.836527504950327
+            ],
+            [
+              104.15275215552477,
+              1.8230495072355815
+            ],
+            [
+              104.20105469228373,
+              1.8043876638709027
+            ],
+            [
+              104.24715295402402,
+              1.7807465882663236
+            ],
+            [
+              104.29054166334008,
+              1.752385475056835
+            ],
+            [
+              104.33074531781116,
+              1.719615250310087
+            ],
+            [
+              104.36732340452143,
+              1.682795154180346
+            ],
+            [
+              104.3998752257897,
+              1.6423287941381681
+            ],
+            [
+              104.42804428346848,
+              1.5986597126879225
+            ],
+            [
+              104.45152217434813,
+              1.552266518738498
+            ],
+            [
+              104.47005195484347,
+              1.5036576364653451
+            ],
+            [
+              104.48343093916203,
+              1.4533657295536677
+            ],
+            [
+              104.49151290147844,
+              1.401941862111002
+            ],
+            [
+              104.49420965919226,
+              1.3499494602592528
+            ],
+            [
+              104.49149202105991,
+              1.2979581404449378
+            ],
+            [
+              104.48339009080082,
+              1.2465374718321525
+            ],
+            [
+              104.4699929236287,
+              1.1962507407606415
+            ],
+            [
+              104.45144753999645,
+              1.1476487851613932
+            ],
+            [
+              104.42795730761796,
+              1.1012639660280437
+            ],
+            [
+              104.39977970949228,
+              1.0576043415520926
+            ],
+            [
+              104.36722352215504,
+              1.0171481073551616
+            ],
+            [
+              104.33064543466408,
+              0.9803383634088628
+            ],
+            [
+              104.29044614483553,
+              0.94757826474366
+            ],
+            [
+              104.24706597492158,
+              0.9192266089402044
+            ],
+            [
+              104.20098005419764,
+              0.8955939087042297
+            ],
+            [
+              104.1526931207388,
+              0.8769389925912334
+            ],
+            [
+              104.10273399894629,
+              0.8634661712197828
+            ],
+            [
+              104.0516498130697,
+              0.8553230001504022
+            ],
+            [
+              104.0,
+              0.8525986640767447
+            ],
+            [
+              103.9483501869303,
+              0.8553230001504022
+            ],
+            [
+              103.89726600105371,
+              0.8634661712197828
+            ],
+            [
+              103.8473068792612,
+              0.8769389925912334
+            ],
+            [
+              103.79901994580236,
+              0.8955939087042297
+            ],
+            [
+              103.75293402507842,
+              0.9192266089402044
+            ],
+            [
+              103.70955385516447,
+              0.94757826474366
+            ],
+            [
+              103.66935456533592,
+              0.9803383634088628
+            ],
+            [
+              103.63277647784496,
+              1.0171481073551616
+            ],
+            [
+              103.60022029050772,
+              1.0576043415520926
+            ],
+            [
+              103.57204269238204,
+              1.1012639660280437
+            ],
+            [
+              103.54855246000355,
+              1.1476487851613932
+            ],
+            [
+              103.5300070763713,
+              1.1962507407606415
+            ],
+            [
+              103.51660990919918,
+              1.2465374718321525
+            ],
+            [
+              103.50850797894009,
+              1.2979581404449378
+            ],
+            [
+              103.50579034080774,
+              1.3499494602592528
+            ],
+            [
+              103.50848709852156,
+              1.401941862111002
+            ],
+            [
+              103.51656906083797,
+              1.4533657295536677
+            ],
+            [
+              103.52994804515653,
+              1.5036576364653451
+            ],
+            [
+              103.54847782565187,
+              1.552266518738498
+            ],
+            [
+              103.57195571653152,
+              1.5986597126879225
+            ],
+            [
+              103.6001247742103,
+              1.6423287941381681
+            ],
+            [
+              103.63267659547857,
+              1.682795154180346
+            ],
+            [
+              103.66925468218884,
+              1.719615250310087
+            ],
+            [
+              103.70945833665992,
+              1.752385475056835
+            ],
+            [
+              103.75284704597598,
+              1.7807465882663236
+            ],
+            [
+              103.79894530771627,
+              1.8043876638709027
+            ],
+            [
+              103.84724784447523,
+              1.8230495072355815
+            ],
+            [
+              103.897225149902,
+              1.836527504950327
+            ],
+            [
+              103.94832930498448,
+              1.8446738751910678
+            ],
+            [
+              104.0,
+              1.847399293422949
+            ],
+            [
+              104.05167069501552,
+              1.8446738751910678
+            ],
+            [
+              104.05167069501552,
+              1.8446738751910678
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "radius": 55000.0,
+        "lateralSeparation": 20000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.95051351429541,
+              10.342438571843957
+            ],
+            [
+              105.88998150047036,
+              10.192669326357867
+            ],
+            [
+              106.80753723578843,
+              9.945027782933547
+            ],
+            [
+              107.69266372529296,
+              9.602437040768736
+            ],
+            [
+              108.53534965581247,
+              9.168916098261713
+            ],
+            [
+              109.32622477264319,
+              8.649511083806495
+            ],
+            [
+              110.05667101274138,
+              8.050212810811749
+            ],
+            [
+              110.7189078733972,
+              7.3778642540599
+            ],
+            [
+              111.3060525763079,
+              6.6400615297175785
+            ],
+            [
+              111.81215737732819,
+              5.845051649766928
+            ],
+            [
+              112.23222771393111,
+              5.001629779877252
+            ],
+            [
+              112.56222569610738,
+              4.119038040495511
+            ],
+            [
+              112.79906372518423,
+              3.2068671398485855
+            ],
+            [
+              112.94059281779028,
+              2.274961392809573
+            ],
+            [
+              112.98558960269466,
+              1.3333270255339627
+            ],
+            [
+              112.93374504566054,
+              0.3920431404278832
+            ],
+            [
+              112.78565684209461,
+              -0.5388256485156289
+            ],
+            [
+              112.5428261930624,
+              -1.449316085427075
+            ],
+            [
+              112.20765843315951,
+              -2.3296538223638334
+            ],
+            [
+              111.78346578946031,
+              -3.1703426411942868
+            ],
+            [
+              111.27446949882376,
+              -3.962255986369087
+            ],
+            [
+              110.68579767750548,
+              -4.696730946853154
+            ],
+            [
+              110.02347480468438,
+              -5.365664212053837
+            ],
+            [
+              109.29439852777404,
+              -5.961608847612058
+            ],
+            [
+              108.50629978376803,
+              -6.477870052638053
+            ],
+            [
+              107.66768298738343,
+              -6.908597440869959
+            ],
+            [
+              106.78774424569794,
+              -7.248870909359475
+            ],
+            [
+              105.87626714249943,
+              -7.49477689033028
+            ],
+            [
+              104.94349745241102,
+              -7.6434717800683725
+            ],
+            [
+              104.0,
+              -7.693229631721308
+            ],
+            [
+              103.05650254758898,
+              -7.6434717800683725
+            ],
+            [
+              102.12373285750057,
+              -7.49477689033028
+            ],
+            [
+              101.21225575430206,
+              -7.248870909359475
+            ],
+            [
+              100.33231701261657,
+              -6.908597440869959
+            ],
+            [
+              99.49370021623197,
+              -6.477870052638053
+            ],
+            [
+              98.70560147222596,
+              -5.961608847612058
+            ],
+            [
+              97.97652519531562,
+              -5.365664212053837
+            ],
+            [
+              97.31420232249452,
+              -4.696730946853154
+            ],
+            [
+              96.72553050117624,
+              -3.962255986369087
+            ],
+            [
+              96.21653421053969,
+              -3.1703426411942868
+            ],
+            [
+              95.79234156684049,
+              -2.3296538223638334
+            ],
+            [
+              95.4571738069376,
+              -1.449316085427075
+            ],
+            [
+              95.21434315790539,
+              -0.5388256485156289
+            ],
+            [
+              95.06625495433946,
+              0.3920431404278832
+            ],
+            [
+              95.01441039730534,
+              1.3333270255339627
+            ],
+            [
+              95.05940718220972,
+              2.274961392809573
+            ],
+            [
+              95.20093627481577,
+              3.2068671398485855
+            ],
+            [
+              95.43777430389262,
+              4.119038040495511
+            ],
+            [
+              95.76777228606889,
+              5.001629779877252
+            ],
+            [
+              96.18784262267181,
+              5.845051649766928
+            ],
+            [
+              96.6939474236921,
+              6.6400615297175785
+            ],
+            [
+              97.2810921266028,
+              7.3778642540599
+            ],
+            [
+              97.94332898725862,
+              8.050212810811749
+            ],
+            [
+              98.67377522735681,
+              8.649511083806495
+            ],
+            [
+              99.46465034418753,
+              9.168916098261713
+            ],
+            [
+              100.30733627470704,
+              9.602437040768736
+            ],
+            [
+              101.19246276421157,
+              9.945027782933547
+            ],
+            [
+              102.11001849952964,
+              10.192669326357867
+            ],
+            [
+              103.04948648570459,
+              10.342438571843957
+            ],
+            [
+              104.0,
+              10.392560134229235
+            ],
+            [
+              104.95051351429541,
+              10.342438571843957
+            ],
+            [
+              104.95051351429541,
+              10.342438571843957
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "radius": 1000000.0,
+        "lateralSeparation": 30000.0
+      }
+    }
+  ]
+}
