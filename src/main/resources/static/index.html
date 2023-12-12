@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoJSON Map Example</title>
+    <!-- Include Leaflet CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+        #map-container {
+            display: flex;
+            height: 600px; /* Set height for both map and input container */
+        }
+
+        #map {
+            flex: 1; /* Take up remaining space */
+        }
+
+        #inputContainer {
+            flex: 1; /* Take up remaining space */
+            padding: 20px; /* Add padding for spacing */
+            overflow: auto; /* Add scrollbar for overflow */
+        }
+
+        #trajectoryJson {
+            width: 100%; /* Make the textarea full width */
+            height: 100%; /* Make the textarea full height */
+            box-sizing: border-box; /* Include padding and border in the total width */
+            white-space: pre-wrap; /* Preserve line breaks and wrap text */
+            font-family: monospace; /* Use monospace font for better JSON formatting */
+        }
+
+        #submitButton {
+            margin-top: 10px; /* Add margin between the input box and the button */
+            width: 100%; /* Make the button full width */
+        }
+
+        #formattedJson {
+            white-space: pre-wrap; /* Preserve line breaks and wrap text */
+            font-family: monospace; /* Use monospace font for better JSON formatting */
+        }
+    </style>
+</head>
+<body>
+
+<h1>GeoJSON Map Example</h1>
+
+<!-- Map and input container -->
+<div id="map-container">
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Input container with line spacing and centered input box -->
+    <div id="inputContainer">
+        <form id="trajectoryForm">
+            <label for="trajectoryJson">Enter Trajectory JSON:</label>
+            <textarea id="trajectoryJson" rows="20" cols="50"></textarea>
+
+            <br> <!-- Line spacing -->
+
+            <button type="button" onclick="submitTrajectory()" id="submitButton">Submit</button>
+        </form>
+
+        <!-- Formatted JSON container -->
+        <div id="formattedJson"></div>
+    </div>
+</div>
+
+<script>
+    var map;
+
+    function initMap() {
+        map = L.map('map').setView([0, 0], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+    }
+
+    function clearMap() {
+        if (map) {
+            map.remove();
+        }
+        initMap();
+    }
+
+    function submitTrajectory() {
+        const trajectoryJson = document.getElementById('trajectoryJson').value;
+
+        fetch('http://localhost:8080/v2/forecasts/conflict-features', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: trajectoryJson,
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            clearMap();
+
+            L.geoJSON(data, {
+                onEachFeature: function (feature, layer) {
+                    if (feature.properties) {
+                        layer.bindPopup(Object.entries(feature.properties).map(([key, value]) => `${key}: ${value}`).join("<br>"));
+                    }
+                }
+            }).addTo(map);
+
+            // Zoom to fit all features
+            map.fitBounds(L.geoJSON(data).getBounds());
+
+            // Display formatted JSON
+            document.getElementById('formattedJson').innerText = formatJSON(data);
+
+            // Clear the result content
+            document.getElementById('result').innerText = '';
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    function formatJSON(jsonData) {
+        return JSON.stringify(jsonData, null, 2);
+    }
+
+    // Initialize the map on page load
+    document.addEventListener('DOMContentLoaded', initMap);
+</script>
+</body>
+</html>

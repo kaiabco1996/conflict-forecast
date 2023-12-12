@@ -1,0 +1,203 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "/v1/forecasts/conflicts",
+    "description": "",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "/v1/forecasts/conflicts",
+      "description": ""
+    }
+  ],
+  "paths": {
+    "/v1/forecasts/conflicts": {
+      "post": {
+        "tags": [
+          "/v1/forecasts/conflicts"
+        ],
+        "summary": "POST/v1/forecasts/conflicts",
+        "operationId": "findConflictForecasts",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConflictForecastRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConflictForecastResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SeparationRequirementArray": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/SeparationRequirement"
+        }
+      },
+      "ConflictForecastResponse": {
+        "type": "object",
+        "properties": {
+          "conflicts": {
+            "$ref": "#/components/schemas/ConflictArray"
+          }
+        }
+      },
+      "TemporalGeoPoint": {
+        "type": "object",
+        "properties": {
+          "Companion": {
+            "$ref": "#/components/schemas/Companion"
+          },
+          "lon": {
+            "type": "double"
+          },
+          "lat": {
+            "type": "double"
+          },
+          "timestamp": {
+            "type": "number",
+            "format": "int64"
+          }
+        }
+      },
+      "Companion": {
+        "type": "object",
+        "properties": {}
+      },
+      "GeoPoint": {
+        "type": "object",
+        "properties": {
+          "Companion": {
+            "$ref": "#/components/schemas/Companion"
+          },
+          "lon": {
+            "type": "double"
+          },
+          "lat": {
+            "type": "double"
+          }
+        }
+      },
+      "TrajectoryArray": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Trajectory"
+        }
+      },
+      "ConflictForecastRequest": {
+        "type": "object",
+        "properties": {
+          "trajectories": {
+            "$ref": "#/components/schemas/TrajectoryArray"
+          },
+          "separationRequirements": {
+            "$ref": "#/components/schemas/SeparationRequirementArray"
+          }
+        }
+      },
+      "Conflict": {
+        "type": "object",
+        "properties": {
+          "trajectoryA": {
+            "type": "integer"
+          },
+          "conflictStartA": {
+            "$ref": "#/components/schemas/TemporalGeoPoint"
+          },
+          "conflictBeforeA": {
+            "$ref": "#/components/schemas/TemporalGeoPoint"
+          },
+          "conflictEndA": {
+            "$ref": "#/components/schemas/TemporalGeoPoint"
+          },
+          "trajectoryB": {
+            "type": "integer"
+          },
+          "conflictStartB": {
+            "$ref": "#/components/schemas/TemporalGeoPoint"
+          },
+          "conflictBeforeB": {
+            "$ref": "#/components/schemas/TemporalGeoPoint"
+          },
+          "conflictEndB": {
+            "$ref": "#/components/schemas/TemporalGeoPoint"
+          }
+        }
+      },
+      "WaypointArray": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Waypoint"
+        }
+      },
+      "Waypoint": {
+        "type": "object",
+        "properties": {
+          "lon": {
+            "type": "double"
+          },
+          "lat": {
+            "type": "double"
+          },
+          "timestamp": {
+            "type": "number",
+            "format": "int64"
+          }
+        }
+      },
+      "SeparationRequirement": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "$ref": "#/components/schemas/GeoPoint"
+          },
+          "radius": {
+            "type": "double"
+          },
+          "lateralSeparation": {
+            "type": "double"
+          }
+        }
+      },
+      "Trajectory": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "waypoints": {
+            "$ref": "#/components/schemas/WaypointArray"
+          }
+        }
+      },
+      "ConflictArray": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Conflict"
+        }
+      }
+    }
+  }
+}

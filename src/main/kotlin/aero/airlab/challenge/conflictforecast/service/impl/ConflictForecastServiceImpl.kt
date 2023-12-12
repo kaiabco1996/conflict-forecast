@@ -1,23 +1,17 @@
-package aero.airlab.challenge.conflictforecast.service
+package aero.airlab.challenge.conflictforecast.service.impl
 
 import aero.airlab.challenge.conflictforecast.api.*
 import aero.airlab.challenge.conflictforecast.geospatial.*
-import aero.airlab.challenge.conflictforecast.web.rest.ConflictForecastController
+import aero.airlab.challenge.conflictforecast.service.ConflictForecastService
 import io.github.oshai.kotlinlogging.KotlinLogging
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.launch
-import org.slf4j.Logger
-import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
 
 @Service
-class ConflictForecastServiceImplV2 : ConflictForecastServiceV2 {
+class ConflictForecastServiceImpl : ConflictForecastService {
 
     private val logger = KotlinLogging.logger {}
 
-    override suspend fun createConflict(conflictForecastRequest: ConflictForecastRequest): ConflictForecastResponse {
+    override fun createConflict(conflictForecastRequest: ConflictForecastRequest): ConflictForecastResponse {
         val geodeticCalc: GeodeticCalc = GeodeticCalc.geodeticCalcWSSS()
         // Get the earliest timestamp of the first waypoint of all trajectories
         var earliestTimestamp = conflictForecastRequest.trajectories
@@ -47,14 +41,12 @@ class ConflictForecastServiceImplV2 : ConflictForecastServiceV2 {
                 logger.info { "$timestamp: Extracting relevant waypoint coordinates for current timestamp" }
                 val geoPointPairMap = geoPointPairMutableMap(conflictForecastRequest, timestamp, geodeticCalc)
                 //                println("geoPointPairMap: $geoPointPairMap")
+                logger.info { "$timestamp: Finding lateral distance between different aircrafts pairs" }
+                val distancePairs = getAircraftDistancePairs(geoPointPairMap, geodeticCalc)
+                //                println("distancePairs: $distancePairs")
 
                 logger.info { "$timestamp: Finding relevant regions to different aircrafts" }
                 val geoPointRegionMap = evaluateAircraftRegions(geoPointPairMap, conflictForecastRequest, geodeticCalc)
-
-                logger.info { "$timestamp: Finding lateral distance between different aircrafts pairs" }
-                val distancePairs = getAircraftDistancePairs(geoPointPairMap, geodeticCalc, geoPointRegionMap)
-                //                println("distancePairs: $distancePairs")
-
                 //                println("geoPointRegionMap: ${geoPointRegionMap.size}")
 //                println("distancePairs: ${distancePairs.size}")
 //                println("geoPointPairMap: ${geoPointPairMap.size}")
@@ -169,89 +161,72 @@ class ConflictForecastServiceImplV2 : ConflictForecastServiceV2 {
 
     private fun getAircraftDistancePairs(
         geoPointPairMap: MutableMap<Int, GeoPointPair>,
-        geodeticCalc: GeodeticCalc,
-        geoPointRegionMap: MutableMap<Int, SeparationRequirement?>
+        geodeticCalc: GeodeticCalc
     ): MutableList<AircraftDistancePair> {
         val distancePairs = mutableListOf<AircraftDistancePair>()
-        val calculatedDistances = mutableMapOf<Pair<Int, Int>, Double>()
-
-        geoPointRegionMap.keys.forEach { key1 ->
-            geoPointRegionMap.keys.filter { it != key1 }.forEach { key2 ->
-                // Check if the pair already exists
-                val pair = Pair(key1, key2).let { if (it.first > it.second) Pair(it.second, it.first) else it }
-                if (pair !in calculatedDistances) {
-                    val geoPoint1 = geoPointPairMap[key1]?.geoPointCurrent
-                    val geoPoint2 = geoPointPairMap[key2]?.geoPointCurrent
-
-                    if (geoPoint1 != null && geoPoint2 != null) {
-                        val lateralDistance: Double = geodeticCalc.distance(geoPoint1, geoPoint2)
-                        calculatedDistances[pair] = lateralDistance
-                        distancePairs.add(AircraftDistancePair(key1, key2, lateralDistance))
+        for (key in geoPointPairMap.keys) { // O(key ** 2)
+            for (key2 in geoPointPairMap.keys) {
+                if (key != key2) {
+                    // Check if the pair already exists
+                    val existingPair =
+                        distancePairs.find { it.id1 == key && it.id2 == key2 || it.id1 == key2 && it.id2 == key }
+                    if (existingPair == null && geoPointPairMap.get(key) != null && geoPointPairMap.get(key2) != null) {
+                        val lateralDistance: Double =
+                            geodeticCalc.distance(
+                                geoPointPairMap.get(key)!!.geoPointCurrent,
+                                geoPointPairMap.get(key2)!!.geoPointCurrent
+                            )
+                        distancePairs.add(AircraftDistancePair(key, key2, lateralDistance))
                     }
+                } else {
+                    continue
                 }
             }
         }
-
         return distancePairs
     }
 
-
-    private suspend fun geoPointPairMutableMap(
+    private fun geoPointPairMutableMap(
         conflictForecastRequest: ConflictForecastRequest,
         timestamp: Long,
         geodeticCalc: GeodeticCalc
-    ): MutableMap<Int, GeoPointPair> = coroutineScope {
+    ): MutableMap<Int, GeoPointPair> {
         val geoPointPairMap = mutableMapOf<Int, GeoPointPair>()
+        for (trajectory in conflictForecastRequest.trajectories) {// O(trajectory)
+            val waypointsBefore = trajectory.waypoints.filter { it.timestamp <= timestamp }
+            val waypointsAfter = trajectory.waypoints.filter { it.timestamp > timestamp }
+            if (waypointsBefore.isEmpty() || waypointsAfter.isEmpty()) {
+                logger.info { "No relevant waypoints for $timestamp for ${trajectory.id}" }
+                continue
+            }
+            //given the waypoints, find the two waypoints in between the current time,
+            val (geoPointBefore: TemporalGeoPoint?, geoPointAfter: TemporalGeoPoint?) = findWaypointsAroundTimestamp(
+                waypointsBefore,
+                waypointsAfter,
+                targetTimestamp = timestamp
+            )
+            //find the headingAndDistanceTo from the two waypoints and
+            if (geoPointBefore != null && geoPointAfter != null) {
+                val (heading, distance) = geodeticCalc.headingAndDistanceTo(geoPointBefore, geoPointAfter)
+                //interpolate based on the timestamp differences for the distance at current timestamp
+                val interpolatedDistance: Double =
+                    interpolatePosition(geoPointBefore, geoPointAfter, timestamp, distance)
+                //from the initial waypoint, heading & dist, find the next position using nextPointFrom
+                val geoPointAtCurrentTime: TemporalGeoPoint = convertToTemporalGeoPoint(
+                    geodeticCalc.nextPointFrom(geoPointBefore, heading, interpolatedDistance),
+                    timestamp
+                )
+                //insert into mapA {id1: currentpoint_atcurrenttime, heading, distance_new, speed_new, initial_point}
+                val geoPointPair = GeoPointPair(geoPointBefore, geoPointAtCurrentTime)
+                geoPointPairMap[trajectory.id] = geoPointPair
 
-        // Use async for each trajectory to perform asynchronous processing
-        conflictForecastRequest.trajectories.forEach { trajectory ->
-            launch {
-                processTrajectoryAsync(trajectory, timestamp, geodeticCalc, geoPointPairMap)
+            } else {
+                // Handle the case where either geoPointBefore or geoPointAfter is null
+                logger.error { "One or both geo points are null for $timestamp for ${trajectory.id}" }
+                throw IllegalArgumentException("One or both geo points are null.")
             }
         }
-
-        // Return the updated geoPointPairMap
-        geoPointPairMap
-    }
-
-    private suspend fun processTrajectoryAsync(
-        trajectory: Trajectory,
-        timestamp: Long,
-        geodeticCalc: GeodeticCalc,
-        geoPointPairMap: MutableMap<Int, GeoPointPair>
-    ) {
-        val waypointsBefore = trajectory.waypoints.filter { it.timestamp <= timestamp }
-        val waypointsAfter = trajectory.waypoints.filter { it.timestamp > timestamp }
-        if (waypointsBefore.isEmpty() || waypointsAfter.isEmpty()) {
-            logger.info { "No relevant waypoints for $timestamp for ${trajectory.id}" }
-            return
-        }
-        //given the waypoints, find the two waypoints in between the current time,
-        val (geoPointBefore: TemporalGeoPoint?, geoPointAfter: TemporalGeoPoint?) = findWaypointsAroundTimestamp(
-            waypointsBefore,
-            waypointsAfter,
-            targetTimestamp = timestamp
-        )
-        //find the headingAndDistanceTo from the two waypoints and
-        if (geoPointBefore != null && geoPointAfter != null) {
-            val (heading, distance) = geodeticCalc.headingAndDistanceTo(geoPointBefore, geoPointAfter)
-            //interpolate based on the timestamp differences for the distance at current timestamp
-            val interpolatedDistance: Double =
-                interpolatePosition(geoPointBefore, geoPointAfter, timestamp, distance)
-            //from the initial waypoint, heading & dist, find the next position using nextPointFrom
-            val geoPointAtCurrentTime: TemporalGeoPoint = convertToTemporalGeoPoint(
-                geodeticCalc.nextPointFrom(geoPointBefore, heading, interpolatedDistance),
-                timestamp
-            )
-            //insert into mapA {id1: currentpoint_atcurrenttime, heading, distance_new, speed_new, initial_point}
-            val geoPointPair = GeoPointPair(geoPointBefore, geoPointAtCurrentTime)
-            geoPointPairMap[trajectory.id] = geoPointPair
-
-        } else {
-            // Handle the case where either geoPointBefore or geoPointAfter is null
-            logger.error { "One or both geo points are null for $timestamp for ${trajectory.id}" }
-            throw IllegalArgumentException("One or both geo points are null.")
-        }
+        return geoPointPairMap
     }
 
     private fun addConflictHandler(

@@ -8,14 +8,12 @@ import aero.airlab.challenge.conflictforecast.service.GeoJsonMapper
 import io.github.oshai.kotlinlogging.KotlinLogging
 
 import org.springframework.http.MediaType
-import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.RequestBody
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 
 
 @RestController
 @RequestMapping("/v2/forecasts")
+@CrossOrigin(origins = ["http://localhost:63342"], methods = [RequestMethod.POST])
 class ConflictForecastControllerV2(
     private val conflictForecastServiceV2: ConflictForecastServiceV2,
     private val geoJsonMapper: GeoJsonMapper

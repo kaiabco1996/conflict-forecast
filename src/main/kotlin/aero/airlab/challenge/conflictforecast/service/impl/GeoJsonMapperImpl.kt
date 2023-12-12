@@ -1,13 +1,13 @@
-package aero.airlab.challenge.conflictforecast.service
+package aero.airlab.challenge.conflictforecast.service.impl
 
 import aero.airlab.challenge.conflictforecast.api.Conflict
 import aero.airlab.challenge.conflictforecast.api.ConflictForecastRequest
 import aero.airlab.challenge.conflictforecast.api.ConflictForecastResponse
 import aero.airlab.challenge.conflictforecast.api.SeparationRequirement
-import aero.airlab.challenge.conflictforecast.geomodels.SeparationRegionFeatures
-import aero.airlab.challenge.conflictforecast.geospatial.GeoPoint
 import aero.airlab.challenge.conflictforecast.geospatial.TemporalGeoPoint
-import aero.airlab.challenge.conflictforecast.geospatial.*
+import aero.airlab.challenge.conflictforecast.service.ConflictForecastService
+import aero.airlab.challenge.conflictforecast.service.ConflictForecastServiceV2
+import aero.airlab.challenge.conflictforecast.service.GeoJsonMapper
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import org.geotools.referencing.GeodeticCalculator
